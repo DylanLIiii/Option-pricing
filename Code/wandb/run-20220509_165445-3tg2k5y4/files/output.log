@@ -1,0 +1,590 @@
+==================== fold_0 Training ====================
+Epoch 1/100
+/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/keras/optimizer_v2/adam.py:105: UserWarning: The `lr` argument is deprecated, use `learning_rate` instead.
+  super(Adam, self).__init__(name, **kwargs)
+2022-05-09 16:55:01.975660: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:113] Plugin optimizer for device_type GPU is enabled.
+102/105 [============================>.] - ETA: 0s - loss: 13.3767 - val_loss: 13.3767
+105/105 [==============================] - 4s 23ms/step - loss: 13.5130 - val_loss: 15.1220 - val_val_loss: 16.4599 - _timestamp: 1652086505.0000 - _runtime: 11.0000
+Epoch 2/100
+105/105 [==============================] - 2s 19ms/step - loss: 11.7295 - val_loss: 11.7265 - _timestamp: 1652086507.0000 - _runtime: 13.0000
+Epoch 3/100
+105/105 [==============================] - 2s 19ms/step - loss: 10.8170 - val_loss: 10.7972 - _timestamp: 1652086509.0000 - _runtime: 15.0000
+Epoch 4/100
+105/105 [==============================] - 2s 19ms/step - loss: 10.5368 - val_loss: 10.5829 - _timestamp: 1652086511.0000 - _runtime: 17.0000
+Epoch 5/100
+105/105 [==============================] - 2s 18ms/step - loss: 10.4444 - val_loss: 10.4337 - _timestamp: 1652086513.0000 - _runtime: 19.0000
+Epoch 6/100
+105/105 [==============================] - 2s 19ms/step - loss: 10.2709 - val_loss: 10.2610 - _timestamp: 1652086515.0000 - _runtime: 21.0000
+Epoch 7/100
+105/105 [==============================] - 2s 19ms/step - loss: 10.2674 - val_loss: 10.2585 - _timestamp: 1652086517.0000 - _runtime: 23.0000
+Epoch 8/100
+105/105 [==============================] - 2s 19ms/step - loss: 10.1581 - val_loss: 10.1986 - _timestamp: 1652086518.0000 - _runtime: 24.0000
+Epoch 9/100
+105/105 [==============================] - 2s 18ms/step - loss: 10.0755 - val_loss: 10.0523 - _timestamp: 1652086520.0000 - _runtime: 26.0000
+Epoch 10/100
+105/105 [==============================] - 2s 18ms/step - loss: 10.1162 - val_loss: 10.0974 - _timestamp: 1652086522.0000 - _runtime: 28.0000
+Epoch 11/100
+105/105 [==============================] - 2s 19ms/step - loss: 9.8569 - val_loss: 9.8794 - _timestamp: 1652086524.0000 - _runtime: 30.0000
+Epoch 12/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.9003 - val_loss: 9.8795 - _timestamp: 1652086526.0000 - _runtime: 32.0000
+Epoch 13/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.7314 - val_loss: 9.7242 - _timestamp: 1652086528.0000 - _runtime: 34.0000
+Epoch 14/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.9419 - val_loss: 9.9970 - _timestamp: 1652086530.0000 - _runtime: 36.0000
+Epoch 15/100
+105/105 [==============================] - 2s 18ms/step - loss: 10.0840 - val_loss: 10.1033 - _timestamp: 1652086532.0000 - _runtime: 38.0000
+Epoch 16/100
+105/105 [==============================] - 2s 17ms/step - loss: 9.7914 - val_loss: 9.8033 - _timestamp: 1652086534.0000 - _runtime: 40.0000
+Epoch 17/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.8943 - val_loss: 9.9333 - _timestamp: 1652086536.0000 - _runtime: 42.0000
+Epoch 18/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.8147 - val_loss: 9.8058 - _timestamp: 1652086537.0000 - _runtime: 43.0000
+Epoch 19/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.7773 - val_loss: 9.7647 - _timestamp: 1652086539.0000 - _runtime: 45.0000
+Epoch 20/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.9806 - val_loss: 9.9662 - _timestamp: 1652086541.0000 - _runtime: 47.0000
+Epoch 21/100
+105/105 [==============================] - 2s 17ms/step - loss: 9.7777 - val_loss: 9.7572 - _timestamp: 1652086543.0000 - _runtime: 49.0000
+Epoch 22/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.9237 - val_loss: 9.9085 - _timestamp: 1652086545.0000 - _runtime: 51.0000
+Epoch 23/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.8905 - val_loss: 9.9476 - _timestamp: 1652086547.0000 - _runtime: 53.0000
+Epoch 24/100
+105/105 [==============================] - 2s 17ms/step - loss: 9.8887 - val_loss: 9.8872 - _timestamp: 1652086549.0000 - _runtime: 55.0000
+Epoch 25/100
+105/105 [==============================] - 2s 19ms/step - loss: 9.7409 - val_loss: 9.7209 - _timestamp: 1652086551.0000 - _runtime: 57.0000
+Epoch 26/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.9173 - val_loss: 9.9804 - _timestamp: 1652086552.0000 - _runtime: 58.0000
+Epoch 27/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.9235 - val_loss: 9.9865 - _timestamp: 1652086554.0000 - _runtime: 60.0000
+Epoch 28/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.9090 - val_loss: 9.9479 - _timestamp: 1652086556.0000 - _runtime: 62.0000
+Epoch 29/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.8667 - val_loss: 9.8677 - _timestamp: 1652086558.0000 - _runtime: 64.0000
+Epoch 30/100
+105/105 [==============================] - 2s 17ms/step - loss: 9.7930 - val_loss: 9.7733 - _timestamp: 1652086560.0000 - _runtime: 66.0000
+Epoch 31/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.7874 - val_loss: 9.7942 - _timestamp: 1652086562.0000 - _runtime: 68.0000
+Epoch 32/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.8322 - val_loss: 9.8239 - _timestamp: 1652086564.0000 - _runtime: 70.0000
+Epoch 33/100
+105/105 [==============================] - 2s 17ms/step - loss: 9.8728 - val_loss: 9.8499 - _timestamp: 1652086565.0000 - _runtime: 71.0000
+Epoch 34/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.7861 - val_loss: 9.7767 - _timestamp: 1652086567.0000 - _runtime: 73.0000
+Epoch 35/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.6997 - val_loss: 9.7561 - _timestamp: 1652086569.0000 - _runtime: 75.0000
+Epoch 36/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.8934 - val_loss: 9.8693 - _timestamp: 1652086571.0000 - _runtime: 77.0000
+Epoch 37/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.7293 - val_loss: 9.7254 - _timestamp: 1652086573.0000 - _runtime: 79.0000
+Epoch 38/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.8294 - val_loss: 9.8373 - _timestamp: 1652086575.0000 - _runtime: 81.0000
+Epoch 39/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.9159 - val_loss: 9.8975 - _timestamp: 1652086577.0000 - _runtime: 83.0000
+Epoch 40/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.7320 - val_loss: 9.7253 - _timestamp: 1652086579.0000 - _runtime: 85.0000
+Epoch 41/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.7632 - val_loss: 9.9121 - _timestamp: 1652086580.0000 - _runtime: 86.0000
+Epoch 42/100
+105/105 [==============================] - 2s 17ms/step - loss: 9.9223 - val_loss: 9.9361 - _timestamp: 1652086582.0000 - _runtime: 88.0000
+Epoch 43/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.7830 - val_loss: 9.8413 - _timestamp: 1652086584.0000 - _runtime: 90.0000
+Epoch 44/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.7288 - val_loss: 9.7244 - _timestamp: 1652086586.0000 - _runtime: 92.0000
+Epoch 45/100
+105/105 [==============================] - 2s 17ms/step - loss: 9.7387 - val_loss: 9.7486 - _timestamp: 1652086588.0000 - _runtime: 94.0000
+Epoch 46/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.9433 - val_loss: 9.9216 - _timestamp: 1652086590.0000 - _runtime: 96.0000
+Epoch 47/100
+105/105 [==============================] - 2s 19ms/step - loss: 9.6049 - val_loss: 9.5998 - _timestamp: 1652086592.0000 - _runtime: 98.0000
+Epoch 48/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.6866 - val_loss: 9.6672 - _timestamp: 1652086594.0000 - _runtime: 100.0000
+Epoch 49/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.6323 - val_loss: 9.6722 - _timestamp: 1652086596.0000 - _runtime: 102.0000
+Epoch 50/100
+Epoch 51/100===========================] - 2s 18ms/step - loss: 9.6766 - val_loss: 9.7493 - _timestamp: 1652086597.0000 - _runtime: 103.0000
+Epoch 51/100===========================] - 2s 18ms/step - loss: 9.6766 - val_loss: 9.7493 - _timestamp: 1652086597.0000 - _runtime: 103.0000
+ 70/105 [===================>..........] - ETA: 0s - loss: 10.0281 - val_loss: 10.0281733 - _timestamp: 1652086599.0000 - _runtime: 105.0000
+Epoch 52/100
+ 80/105 [=====================>........] - ETA: 0s - loss: 9.9594 - val_loss: 9.9594  332 - _timestamp: 1652086601.0000 - _runtime: 107.0000
+Epoch 53/100
+ 88/105 [========================>.....] - ETA: 0s - loss: 9.6406 - val_loss: 9.6406  631 - _timestamp: 1652086603.0000 - _runtime: 109.0000
+Epoch 54/100
+ 94/105 [=========================>....] - ETA: 0s - loss: 9.6822 - val_loss: 9.6822  893 - _timestamp: 1652086605.0000 - _runtime: 111.0000
+Epoch 55/100
+100/105 [===========================>..] - ETA: 0s - loss: 9.9853 - val_loss: 9.9853  977 - _timestamp: 1652086607.0000 - _runtime: 113.0000
+Epoch 56/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.7468 - val_loss: 9.7726 - _timestamp: 1652086611.0000 - _runtime: 117.0000
+Epoch 57/100
+105/105 [==============================] - 2s 18ms/step - loss: 9.7468 - val_loss: 9.7726 - _timestamp: 1652086611.0000 - _runtime: 117.0000
+Epoch 58/100
+105/105 [==============================] - 2s 19ms/step - loss: 9.5700 - val_loss: 9.5760 - _timestamp: 1652086613.0000 - _runtime: 119.0000
+Epoch 59/100
+  4/105 [>.............................] - ETA: 1s - loss: 17.4342 - val_loss: 17.4342
+ 10/105 [=>............................] - ETA: 1s - loss: 9.3033 - val_loss: 9.3033.5760 - _timestamp: 1652086613.0000 - _runtime: 119.0000
+105/105 [==============================] - 2s 19ms/step - loss: 9.5161 - val_loss: 9.5021 - _timestamp: 1652086616.0000 - _runtime: 122.0000
+ 19/105 [====>.........................] - ETA: 1s - loss: 8.6679 - val_loss: 8.6679.5021 - _timestamp: 1652086616.0000 - _runtime: 122.0000
+105/105 [==============================] - 2s 18ms/step - loss: 9.5813 - val_loss: 9.6063 - _timestamp: 1652086620.0000 - _runtime: 126.0000
+ 31/105 [=======>......................] - ETA: 1s - loss: 10.0884 - val_loss: 10.0884063 - _timestamp: 1652086620.0000 - _runtime: 126.0000
+105/105 [==============================] - 2s 17ms/step - loss: 9.6196 - val_loss: 9.6322 - _timestamp: 1652086624.0000 - _runtime: 130.0000
+ 46/105 [============>.................] - ETA: 1s - loss: 10.6029 - val_loss: 10.6029322 - _timestamp: 1652086624.0000 - _runtime: 130.0000
+105/105 [==============================] - 2s 18ms/step - loss: 9.7430 - val_loss: 9.7358 - _timestamp: 1652086628.0000 - _runtime: 134.0000
+ 28/105 [=======>......................] - ETA: 1s - loss: 11.7573 - val_loss: 11.7573358 - _timestamp: 1652086628.0000 - _runtime: 134.0000
+105/105 [==============================] - 2s 18ms/step - loss: 9.6412 - val_loss: 9.6249 - _timestamp: 1652086632.0000 - _runtime: 138.0000
+ 40/105 [==========>...................] - ETA: 1s - loss: 10.3160 - val_loss: 10.3160249 - _timestamp: 1652086632.0000 - _runtime: 138.0000
+105/105 [==============================] - 2s 18ms/step - loss: 9.5775 - val_loss: 9.5554 - _timestamp: 1652086636.0000 - _runtime: 142.0000
+ 52/105 [=============>................] - ETA: 0s - loss: 10.0680 - val_loss: 10.0680554 - _timestamp: 1652086636.0000 - _runtime: 142.0000
+105/105 [==============================] - 2s 18ms/step - loss: 9.5653 - val_loss: 9.5486 - _timestamp: 1652086639.0000 - _runtime: 145.0000
+ 61/105 [================>.............] - ETA: 0s - loss: 9.8372 - val_loss: 9.8372  486 - _timestamp: 1652086639.0000 - _runtime: 145.0000
+105/105 [==============================] - 2s 18ms/step - loss: 9.6083 - val_loss: 9.6039 - _timestamp: 1652086643.0000 - _runtime: 149.0000
+ 74/105 [====================>.........] - ETA: 0s - loss: 9.8582 - val_loss: 9.8582  039 - _timestamp: 1652086643.0000 - _runtime: 149.0000
+105/105 [==============================] - 2s 18ms/step - loss: 9.7150 - val_loss: 9.7214 - _timestamp: 1652086647.0000 - _runtime: 153.0000
+ 82/105 [======================>.......] - ETA: 0s - loss: 10.0587 - val_loss: 10.0587214 - _timestamp: 1652086647.0000 - _runtime: 153.0000
+105/105 [==============================] - 2s 18ms/step - loss: 9.7546 - val_loss: 9.7879 - _timestamp: 1652086651.0000 - _runtime: 157.0000
+ 91/105 [=========================>....] - ETA: 0s - loss: 9.8142 - val_loss: 9.8142  879 - _timestamp: 1652086651.0000 - _runtime: 157.0000
+105/105 [==============================] - 2s 19ms/step - loss: 9.4131 - val_loss: 9.4547 - _timestamp: 1652086655.0000 - _runtime: 161.0000
+ 94/105 [=========================>....] - ETA: 0s - loss: 9.7063 - val_loss: 9.7063  547 - _timestamp: 1652086655.0000 - _runtime: 161.0000
+105/105 [==============================] - 2s 18ms/step - loss: 9.6145 - val_loss: 9.5960 - _timestamp: 1652086659.0000 - _runtime: 165.0000
+100/105 [===========================>..] - ETA: 0s - loss: 9.7104 - val_loss: 9.7104  960 - _timestamp: 1652086659.0000 - _runtime: 165.0000
+105/105 [==============================] - 2s 18ms/step - loss: 9.6457 - val_loss: 9.6303 - _timestamp: 1652086663.0000 - _runtime: 169.0000
+ 97/105 [==========================>...] - ETA: 0s - loss: 9.6056 - val_loss: 9.6056  303 - _timestamp: 1652086663.0000 - _runtime: 169.0000
+105/105 [==============================] - 2s 20ms/step - loss: 9.4555 - val_loss: 9.4479 - _timestamp: 1652086667.0000 - _runtime: 173.0000
+ 97/105 [==========================>...] - ETA: 0s - loss: 9.6183 - val_loss: 9.6183  479 - _timestamp: 1652086667.0000 - _runtime: 173.0000
+105/105 [==============================] - 2s 19ms/step - loss: 9.5053 - val_loss: 9.5173 - _timestamp: 1652086671.0000 - _runtime: 177.0000
+105/105 [==============================] - 2s 18ms/step - loss: 9.6040 - val_loss: 9.5979 - _timestamp: 1652086675.0000 - _runtime: 181.0000
+105/105 [==============================] - 2s 18ms/step - loss: 9.6040 - val_loss: 9.5979 - _timestamp: 1652086675.0000 - _runtime: 181.0000
+105/105 [==============================] - 2s 19ms/step - loss: 9.7456 - val_loss: 9.7678 - _timestamp: 1652086679.0000 - _runtime: 185.0000
+  7/105 [=>............................] - ETA: 1s - loss: 11.3431 - val_loss: 11.3431678 - _timestamp: 1652086679.0000 - _runtime: 185.0000
+105/105 [==============================] - 2s 18ms/step - loss: 9.6415 - val_loss: 9.6199 - _timestamp: 1652086683.0000 - _runtime: 189.0000
+ 13/105 [==>...........................] - ETA: 1s - loss: 9.4979 - val_loss: 9.4979  199 - _timestamp: 1652086683.0000 - _runtime: 189.0000
+105/105 [==============================] - 2s 18ms/step - loss: 9.7366 - val_loss: 9.7294 - _timestamp: 1652086687.0000 - _runtime: 193.0000
+ 25/105 [======>.......................] - ETA: 1s - loss: 10.8440 - val_loss: 10.8440294 - _timestamp: 1652086687.0000 - _runtime: 193.0000
+105/105 [==============================] - 2s 18ms/step - loss: 9.5087 - val_loss: 9.4929 - _timestamp: 1652086690.0000 - _runtime: 196.0000
+ 34/105 [========>.....................] - ETA: 1s - loss: 10.0589 - val_loss: 10.0589929 - _timestamp: 1652086690.0000 - _runtime: 196.0000
+ 34/105 [========>.....................] - ETA: 1s - loss: 10.0589 - val_loss: 10.0589929 - _timestamp: 1652086690.0000 - _runtime: 196.0000
+105/105 [==============================] - 2s 18ms/step - loss: 9.7105 - val_loss: 9.7129 - _timestamp: 1652086694.0000 - _runtime: 200.0000
+105/105 [==============================] - 2s 18ms/step - loss: 9.7105 - val_loss: 9.7129 - _timestamp: 1652086694.0000 - _runtime: 200.0000
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+105/105 [==============================] - 2s 18ms/step - loss: 9.7105 - val_loss: 9.7129 - _timestamp: 1652086694.0000 - _runtime: 200.0000
+	nn_nodes: [128, 32, 16]===============] - 2s 18ms/step - loss: 9.7105 - val_loss: 9.7129 - _timestamp: 1652086694.0000 - _runtime: 200.0000
+	nn_nodes: [128, 32, 16]===============] - 2s 18ms/step - loss: 9.7105 - val_loss: 9.7129 - _timestamp: 1652086694.0000 - _runtime: 200.0000
+	optimizer: adam 32, 16]===============] - 2s 18ms/step - loss: 9.7105 - val_loss: 9.7129 - _timestamp: 1652086694.0000 - _runtime: 200.0000
+	optimizer: adam 32, 16]===============] - 2s 18ms/step - loss: 9.7105 - val_loss: 9.7129 - _timestamp: 1652086694.0000 - _runtime: 200.0000
+	epochs: 50 adam 32, 16]===============] - 2s 18ms/step - loss: 9.7105 - val_loss: 9.7129 - _timestamp: 1652086694.0000 - _runtime: 200.0000
+	epochs: 50 adam 32, 16]===============] - 2s 18ms/step - loss: 9.7105 - val_loss: 9.7129 - _timestamp: 1652086694.0000 - _runtime: 200.0000
+	learning_rate: 0.001 Run: fyxzjjmi with config:ms/step - loss: 9.7105 - val_loss: 9.7129 - _timestamp: 1652086694.0000 - _runtime: 200.0000
+	learning_rate: 0.001 Run: fyxzjjmi with config:ms/step - loss: 9.7105 - val_loss: 9.7129 - _timestamp: 1652086694.0000 - _runtime: 200.0000
+	nn_nodes: [128, 16, 16]n: fyxzjjmi with config:ms/step - loss: 9.7105 - val_loss: 9.7129 - _timestamp: 1652086694.0000 - _runtime: 200.0000
+	nn_nodes: [128, 16, 16]n: fyxzjjmi with config:ms/step - loss: 9.7105 - val_loss: 9.7129 - _timestamp: 1652086694.0000 - _runtime: 200.0000
+2022-05-09 16:58:55,803 - wandb.wandb_agent - ERROR - Detected 5 failed runs in a row, shutting down.
+wandb: Network error (ReadTimeout), entering retry loop.
+wandb: Network error (ReadTimeout), entering retry loop.
+wandb: Network error (ProxyError), entering retry loop.
+wandb: Network error (ProxyError), entering retry loop.
+Exception in thread FileStreamThread:
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+  File "/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/threading.py", line 870, in run
+  File "/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/sdk/internal/file_stream.py", line 428, in _thread_except_body
+    raise e
+  File "/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/sdk/internal/file_stream.py", line 422, in _thread_except_body
+    self._thread_body()
+  File "/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/sdk/internal/file_stream.py", line 378, in _thread_body
+    success = self._send(ready_chunks, uploaded=uploaded)
+  File "/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/sdk/internal/file_stream.py", line 466, in _send
+    request_with_retry(
+  File "/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/sdk/internal/file_stream.py", line 553, in request_with_retry
+    response = func(*args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/requests/sessions.py", line 577, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/requests/adapters.py", line 417, in send
+    self.cert_verify(conn, request.url, verify, cert)
+  File "/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/requests/adapters.py", line 228, in cert_verify
+    raise IOError("Could not find a suitable TLS CA certificate bundle, "
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/certifi/cacert.pem
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.
+wandb: WARNING GPU stats error Command '['/Users/dylan/miniforge3/envs/tensorflow_env/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGKILL: 9>.

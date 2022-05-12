@@ -1,0 +1,78 @@
+Will train until validation_0-rmse hasn't improved in 10 rounds.
+0	validation_0-rmse:29.90278
+1	validation_0-rmse:29.79959
+2	validation_0-rmse:29.69899
+3	validation_0-rmse:29.60426
+4	validation_0-rmse:29.50997
+5	validation_0-rmse:29.42099
+6	validation_0-rmse:29.33433
+7	validation_0-rmse:29.25176
+8	validation_0-rmse:29.16993
+9	validation_0-rmse:29.09335
+10	validation_0-rmse:29.01890
+11	validation_0-rmse:28.94662
+12	validation_0-rmse:28.87848
+13	validation_0-rmse:28.80789
+14	validation_0-rmse:28.74436
+15	validation_0-rmse:28.67939
+16	validation_0-rmse:28.62136
+17	validation_0-rmse:28.56029
+18	validation_0-rmse:28.50776
+19	validation_0-rmse:28.45091
+20	validation_0-rmse:28.39709
+21	validation_0-rmse:28.34498
+22	validation_0-rmse:28.30132
+23	validation_0-rmse:28.25373
+24	validation_0-rmse:28.20895
+25	validation_0-rmse:28.15994
+26	validation_0-rmse:28.12340
+27	validation_0-rmse:28.08221
+28	validation_0-rmse:28.04433
+29	validation_0-rmse:28.00186
+30	validation_0-rmse:27.97263
+31	validation_0-rmse:27.93330
+32	validation_0-rmse:27.90327
+33	validation_0-rmse:27.87445
+34	validation_0-rmse:27.84312
+35	validation_0-rmse:27.81926
+36	validation_0-rmse:27.78544
+37	validation_0-rmse:27.76563
+38	validation_0-rmse:27.73587
+39	validation_0-rmse:27.70753
+40	validation_0-rmse:27.69567
+41	validation_0-rmse:27.67514
+42	validation_0-rmse:27.65614
+43	validation_0-rmse:27.64419
+44	validation_0-rmse:27.62774
+45	validation_0-rmse:27.62297
+46	validation_0-rmse:27.60930
+47	validation_0-rmse:27.59752
+48	validation_0-rmse:27.58583
+49	validation_0-rmse:27.57589
+50	validation_0-rmse:27.56885
+51	validation_0-rmse:27.56998
+52	validation_0-rmse:27.57494
+53	validation_0-rmse:27.56760
+54	validation_0-rmse:27.56164
+55	validation_0-rmse:27.55991
+56	validation_0-rmse:27.55614
+57	validation_0-rmse:27.56615
+58	validation_0-rmse:27.56896
+59	validation_0-rmse:27.57331
+60	validation_0-rmse:27.57794
+61	validation_0-rmse:27.58347
+62	validation_0-rmse:27.59046
+63	validation_0-rmse:27.61145
+64	validation_0-rmse:27.62079
+65	validation_0-rmse:27.62415
+Stopping. Best iteration:
+[56]	validation_0-rmse:27.55614
+====================1 model trained====================
+==================== fold_1 ====================
+rmse: 27.556135514821428
+/var/folders/9l/qzgwttq17ps8lhfhrtgpdkx00000gn/T/ipykernel_39008/538381536.py:25: UserWarning:
+wandb_callback will be deprecated in favor of WandbCallback. Please use WandbCallback for more features.
+/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/xgboost/training.py:17: UserWarning:
+Old style callback is deprecated.  See: https://xgboost.readthedocs.io/en/latest/python/callbacks.html
+/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/xgboost/core.py:105: UserWarning:
+ntree_limit is deprecated, use `iteration_range` or model slicing instead.

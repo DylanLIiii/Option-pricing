@@ -1,0 +1,17 @@
+wandb_version: 1
+
+activation:
+  value: swish
+dropout:
+  value: 0.8
+epochs:
+  value: 100
+learning_rate:
+  value: 0.003
+nn_nodes:
+  value:
+  - 128
+  - 64
+  - 16
+optimizer:
+  value: adam

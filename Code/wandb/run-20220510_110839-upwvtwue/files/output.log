@@ -1,0 +1,132 @@
+/var/folders/9l/qzgwttq17ps8lhfhrtgpdkx00000gn/T/ipykernel_39008/969992.py:25: UserWarning: wandb_callback will be deprecated in favor of WandbCallback. Please use WandbCallback for more features.
+  callback = wandb_callback()
+/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/xgboost/training.py:17: UserWarning: Old style callback is deprecated.  See: https://xgboost.readthedocs.io/en/latest/python/callbacks.html
+  warnings.warn(f'Old style callback is deprecated.  See: {link}', UserWarning)
+Exception in thread Thread-11:
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/apis/normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 1433, in upload_urls
+    raise CommError(f"Run does not exist {entity}/{project}/{run_id}.")
+wandb.errors.CommError: Run does not exist dylanli/Option-xgb-project/upwvtwue.
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/filesync/upload_job.py", line 56, in run
+    success = self.push()
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/filesync/upload_job.py", line 112, in push
+    _, upload_headers, result = self._api.upload_urls(project, [self.save_name])
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/apis/normalize.py", line 58, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/apis/normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 1433, in upload_urls
+    raise CommError(f"Run does not exist {entity}/{project}/{run_id}.")
+wandb.errors.CommError: Run does not exist dylanli/Option-xgb-project/upwvtwue.
+/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/xgboost/core.py:105: UserWarning: ntree_limit is deprecated, use `iteration_range` or model slicing instead.
+  warnings.warn(
+Will train until validation_0-rmse hasn't improved in 10 rounds.
+0	validation_0-rmse:35.61526
+1	validation_0-rmse:35.51526
+2	validation_0-rmse:35.41703
+3	validation_0-rmse:35.32053
+4	validation_0-rmse:35.22574
+5	validation_0-rmse:35.13265
+6	validation_0-rmse:35.04121
+7	validation_0-rmse:34.95141
+8	validation_0-rmse:34.86323
+9	validation_0-rmse:34.77671
+10	validation_0-rmse:34.69165
+11	validation_0-rmse:34.60670
+12	validation_0-rmse:34.52323
+13	validation_0-rmse:34.44113
+14	validation_0-rmse:34.36056
+15	validation_0-rmse:34.28138
+16	validation_0-rmse:34.20345
+17	validation_0-rmse:34.12705
+18	validation_0-rmse:34.05183
+19	validation_0-rmse:33.97970
+20	validation_0-rmse:33.90717
+21	validation_0-rmse:33.83752
+22	validation_0-rmse:33.77160
+23	validation_0-rmse:33.70464
+24	validation_0-rmse:33.63697
+25	validation_0-rmse:33.57246
+26	validation_0-rmse:33.50881
+27	validation_0-rmse:33.44659
+28	validation_0-rmse:33.38526
+29	validation_0-rmse:33.32320
+30	validation_0-rmse:33.26588
+31	validation_0-rmse:33.20605
+32	validation_0-rmse:33.15026
+33	validation_0-rmse:33.09409
+34	validation_0-rmse:33.03869
+35	validation_0-rmse:32.98594
+36	validation_0-rmse:32.93497
+37	validation_0-rmse:32.88251
+38	validation_0-rmse:32.83347
+39	validation_0-rmse:32.78413
+40	validation_0-rmse:32.73759
+41	validation_0-rmse:32.68688
+42	validation_0-rmse:32.64290
+43	validation_0-rmse:32.59539
+44	validation_0-rmse:32.55268
+45	validation_0-rmse:32.51167
+46	validation_0-rmse:32.46531
+47	validation_0-rmse:32.42316
+48	validation_0-rmse:32.37751
+49	validation_0-rmse:32.33392
+50	validation_0-rmse:32.28999
+51	validation_0-rmse:32.24694
+52	validation_0-rmse:32.20499
+53	validation_0-rmse:32.16301
+54	validation_0-rmse:32.12188
+55	validation_0-rmse:32.08150
+56	validation_0-rmse:32.04242
+57	validation_0-rmse:32.00367
+58	validation_0-rmse:31.96568
+59	validation_0-rmse:31.92814
+60	validation_0-rmse:31.89152
+61	validation_0-rmse:31.85377
+62	validation_0-rmse:31.82024
+63	validation_0-rmse:31.78489
+64	validation_0-rmse:31.75263
+65	validation_0-rmse:31.71908
+66	validation_0-rmse:31.68328
+67	validation_0-rmse:31.65293
+68	validation_0-rmse:31.62325
+69	validation_0-rmse:31.59421
+70	validation_0-rmse:31.56177
+71	validation_0-rmse:31.53194
+72	validation_0-rmse:31.50289
+73	validation_0-rmse:31.47438
+74	validation_0-rmse:31.44591
+75	validation_0-rmse:31.42557
+76	validation_0-rmse:31.38961
+77	validation_0-rmse:31.37259
+78	validation_0-rmse:31.33359
+79	validation_0-rmse:31.31536
+80	validation_0-rmse:31.27732
+81	validation_0-rmse:31.26181
+82	validation_0-rmse:31.23989
+83	validation_0-rmse:31.21974
+84	validation_0-rmse:31.19861
+85	validation_0-rmse:31.17948
+86	validation_0-rmse:31.14378
+87	validation_0-rmse:31.11889
+88	validation_0-rmse:31.10585
+89	validation_0-rmse:31.07336
+90	validation_0-rmse:31.04840
+91	validation_0-rmse:31.01384
+92	validation_0-rmse:30.98570
+93	validation_0-rmse:30.96217
+94	validation_0-rmse:30.93257
+95	validation_0-rmse:30.91806
+96	validation_0-rmse:30.89483
+97	validation_0-rmse:30.87756
+98	validation_0-rmse:30.86159
+99	validation_0-rmse:30.84140
+====================2 model trained====================
+==================== fold_2 ====================
+rmse: 30.841395746871243

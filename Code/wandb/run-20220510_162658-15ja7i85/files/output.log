@@ -1,0 +1,82 @@
+==================== fold_0 Training ====================
+Epoch 1/50
+WARNING:tensorflow:AutoGraph could not transform <function Model.make_train_function.<locals>.train_function at 0x3a1da7f70> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: closure mismatch, requested ('self', 'step_function'), but source function had ()
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING: AutoGraph could not transform <function Model.make_train_function.<locals>.train_function at 0x3a1da7f70> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: closure mismatch, requested ('self', 'step_function'), but source function had ()
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+ 25/110 [=====>........................] - ETA: 2s - loss: 11.0170 - val_loss: 11.0170
+/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/keras/optimizer_v2/gradient_descent.py:102: UserWarning:
+The `lr` argument is deprecated, use `learning_rate` instead.
+2022-05-10 16:27:02.642608: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:113] Plugin optimizer for device_type GPU is enabled.
+110/110 [==============================] - ETA: 0s - loss: 11.9965 - val_loss: 12.2002WARNING:tensorflow:AutoGraph could not transform <function Model.make_test_function.<locals>.test_function at 0x3db0ac310> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: closure mismatch, requested ('self', 'step_function'), but source function had ()
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING: AutoGraph could not transform <function Model.make_test_function.<locals>.test_function at 0x3db0ac310> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: closure mismatch, requested ('self', 'step_function'), but source function had ()
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+110/110 [==============================] - 3s 25ms/step - loss: 11.9965 - val_loss: 12.5730 - val_val_loss: 12.5493 - _timestamp: 1652171225.0000 - _runtime: 7.0000
+Epoch 2/50
+110/110 [==============================] - 2s 15ms/step - loss: 11.5011 - val_loss: 11.4147 - _timestamp: 1652171227.0000 - _runtime: 9.0000
+Epoch 3/50
+110/110 [==============================] - 2s 14ms/step - loss: 11.2568 - val_loss: 11.1949 - _timestamp: 1652171229.0000 - _runtime: 11.0000
+Epoch 4/50
+110/110 [==============================] - 2s 14ms/step - loss: 11.2176 - val_loss: 11.1308 - _timestamp: 1652171230.0000 - _runtime: 12.0000
+Epoch 5/50
+110/110 [==============================] - 2s 14ms/step - loss: 10.9468 - val_loss: 10.8507 - _timestamp: 1652171232.0000 - _runtime: 14.0000
+Epoch 6/50
+110/110 [==============================] - 2s 14ms/step - loss: 11.1277 - val_loss: 11.1598 - _timestamp: 1652171233.0000 - _runtime: 15.0000
+Epoch 7/50
+110/110 [==============================] - 2s 14ms/step - loss: 11.2101 - val_loss: 11.3039 - _timestamp: 1652171235.0000 - _runtime: 17.0000
+Epoch 8/50
+110/110 [==============================] - 2s 15ms/step - loss: 11.1097 - val_loss: 11.0182 - _timestamp: 1652171237.0000 - _runtime: 19.0000
+Epoch 9/50
+110/110 [==============================] - 2s 14ms/step - loss: 11.1427 - val_loss: 11.0505 - _timestamp: 1652171238.0000 - _runtime: 20.0000
+Epoch 10/50
+110/110 [==============================] - 1s 12ms/step - loss: 10.7759 - val_loss: 10.8627 - _timestamp: 1652171239.0000 - _runtime: 21.0000
+Epoch 11/50
+110/110 [==============================] - 1s 13ms/step - loss: 10.7525 - val_loss: 10.7070 - _timestamp: 1652171241.0000 - _runtime: 23.0000
+Epoch 12/50
+110/110 [==============================] - 1s 12ms/step - loss: 10.8919 - val_loss: 10.8171 - _timestamp: 1652171242.0000 - _runtime: 24.0000
+Epoch 13/50
+110/110 [==============================] - 2s 15ms/step - loss: 10.7798 - val_loss: 10.6916 - _timestamp: 1652171244.0000 - _runtime: 26.0000
+Epoch 14/50
+110/110 [==============================] - 2s 15ms/step - loss: 11.2674 - val_loss: 11.1922 - _timestamp: 1652171245.0000 - _runtime: 27.0000
+Epoch 15/50
+110/110 [==============================] - 2s 14ms/step - loss: 11.0382 - val_loss: 10.9412 - _timestamp: 1652171247.0000 - _runtime: 29.0000
+Epoch 16/50
+110/110 [==============================] - 2s 15ms/step - loss: 11.1238 - val_loss: 11.2226 - _timestamp: 1652171249.0000 - _runtime: 31.0000
+Epoch 17/50
+110/110 [==============================] - 2s 15ms/step - loss: 11.1961 - val_loss: 11.1244 - _timestamp: 1652171250.0000 - _runtime: 32.0000
+Epoch 18/50
+110/110 [==============================] - 2s 14ms/step - loss: 11.0177 - val_loss: 10.9357 - _timestamp: 1652171252.0000 - _runtime: 34.0000
+Epoch 19/50
+110/110 [==============================] - 1s 13ms/step - loss: 13.1130 - val_loss: 15.2688 - _timestamp: 1652171253.0000 - _runtime: 35.0000
+Epoch 20/50
+110/110 [==============================] - 1s 13ms/step - loss: 13.8882 - val_loss: 13.7711 - _timestamp: 1652171255.0000 - _runtime: 37.0000
+Epoch 21/50
+110/110 [==============================] - 1s 13ms/step - loss: 14.0118 - val_loss: 14.1245 - _timestamp: 1652171256.0000 - _runtime: 38.0000
+Epoch 22/50
+110/110 [==============================] - 1s 13ms/step - loss: 13.9518 - val_loss: 13.8645 - _timestamp: 1652171258.0000 - _runtime: 40.0000
+Epoch 23/50
+110/110 [==============================] - 1s 13ms/step - loss: 13.4014 - val_loss: 13.2978 - _timestamp: 1652171259.0000 - _runtime: 41.0000
+Epoch 24/50
+110/110 [==============================] - 1s 13ms/step - loss: 13.9340 - val_loss: 13.8138 - _timestamp: 1652171260.0000 - _runtime: 42.0000
+Epoch 25/50
+110/110 [==============================] - 1s 13ms/step - loss: 14.0144 - val_loss: 13.9205 - _timestamp: 1652171262.0000 - _runtime: 44.0000
+WARNING:tensorflow:AutoGraph could not transform <function Model.make_predict_function.<locals>.predict_function at 0x3aad97f70> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: closure mismatch, requested ('self', 'step_function'), but source function had ()
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING: AutoGraph could not transform <function Model.make_predict_function.<locals>.predict_function at 0x3aad97f70> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: closure mismatch, requested ('self', 'step_function'), but source function had ()
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+==================== fold_0 score ====================
+rmse: 31.393572842546288
+2022-05-10 16:27:42.547694: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:113] Plugin optimizer for device_type GPU is enabled.

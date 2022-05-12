@@ -1,0 +1,144 @@
+Will train until validation_0-rmse hasn't improved in 10 rounds.
+0	validation_0-rmse:38.23781
+1	validation_0-rmse:38.12599
+2	validation_0-rmse:38.01551
+3	validation_0-rmse:37.90757
+4	validation_0-rmse:37.80092
+5	validation_0-rmse:37.69675
+6	validation_0-rmse:37.59383
+7	validation_0-rmse:37.49333
+8	validation_0-rmse:37.39401
+9	validation_0-rmse:37.29708
+10	validation_0-rmse:37.20128
+11	validation_0-rmse:37.10724
+12	validation_0-rmse:37.01489
+13	validation_0-rmse:36.92377
+14	validation_0-rmse:36.83534
+15	validation_0-rmse:36.74755
+16	validation_0-rmse:36.65997
+17	validation_0-rmse:36.57576
+18	validation_0-rmse:36.49138
+19	validation_0-rmse:36.41001
+20	validation_0-rmse:36.33250
+21	validation_0-rmse:36.25795
+22	validation_0-rmse:36.17966
+23	validation_0-rmse:36.10860
+24	validation_0-rmse:36.03983
+25	validation_0-rmse:35.97310
+26	validation_0-rmse:35.90400
+27	validation_0-rmse:35.84024
+28	validation_0-rmse:35.77773
+29	validation_0-rmse:35.70904
+30	validation_0-rmse:35.64905
+31	validation_0-rmse:35.59352
+32	validation_0-rmse:35.53612
+33	validation_0-rmse:35.47629
+34	validation_0-rmse:35.41768
+35	validation_0-rmse:35.36702
+36	validation_0-rmse:35.31274
+37	validation_0-rmse:35.26183
+38	validation_0-rmse:35.20777
+39	validation_0-rmse:35.16326
+40	validation_0-rmse:35.10988
+41	validation_0-rmse:35.06408
+42	validation_0-rmse:35.02063
+43	validation_0-rmse:34.97497
+44	validation_0-rmse:34.92571
+45	validation_0-rmse:34.88088
+46	validation_0-rmse:34.84081
+47	validation_0-rmse:34.79458
+48	validation_0-rmse:34.75352
+49	validation_0-rmse:34.71511
+50	validation_0-rmse:34.67091
+51	validation_0-rmse:34.63552
+52	validation_0-rmse:34.59046
+53	validation_0-rmse:34.54594
+54	validation_0-rmse:34.50291
+55	validation_0-rmse:34.46719
+56	validation_0-rmse:34.42567
+57	validation_0-rmse:34.39245
+58	validation_0-rmse:34.35230
+59	validation_0-rmse:34.32317
+60	validation_0-rmse:34.28495
+61	validation_0-rmse:34.24923
+62	validation_0-rmse:34.21274
+63	validation_0-rmse:34.18279
+64	validation_0-rmse:34.14757
+65	validation_0-rmse:34.12049
+66	validation_0-rmse:34.08375
+67	validation_0-rmse:34.05025
+68	validation_0-rmse:34.02355
+69	validation_0-rmse:33.99614
+70	validation_0-rmse:33.96355
+71	validation_0-rmse:33.91976
+72	validation_0-rmse:33.89706
+73	validation_0-rmse:33.85535
+74	validation_0-rmse:33.83163
+75	validation_0-rmse:33.79812
+76	validation_0-rmse:33.75534
+77	validation_0-rmse:33.72623
+78	validation_0-rmse:33.70341
+79	validation_0-rmse:33.67209
+80	validation_0-rmse:33.63455
+81	validation_0-rmse:33.61305
+82	validation_0-rmse:33.58623
+83	validation_0-rmse:33.56010
+84	validation_0-rmse:33.52486
+85	validation_0-rmse:33.49926
+86	validation_0-rmse:33.47932
+87	validation_0-rmse:33.45801
+88	validation_0-rmse:33.43427
+89	validation_0-rmse:33.40133
+90	validation_0-rmse:33.38261
+91	validation_0-rmse:33.35179
+92	validation_0-rmse:33.32827
+93	validation_0-rmse:33.30922
+94	validation_0-rmse:33.28563
+95	validation_0-rmse:33.26740
+96	validation_0-rmse:33.24601
+97	validation_0-rmse:33.22854
+98	validation_0-rmse:33.20004
+99	validation_0-rmse:33.17464
+====================4 model trained====================
+==================== fold_4 ====================
+rmse: 33.17464201822424
+/var/folders/9l/qzgwttq17ps8lhfhrtgpdkx00000gn/T/ipykernel_39008/969992.py:25: UserWarning: wandb_callback will be deprecated in favor of WandbCallback. Please use WandbCallback for more features.
+  callback = wandb_callback()
+/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/xgboost/training.py:17: UserWarning: Old style callback is deprecated.  See: https://xgboost.readthedocs.io/en/latest/python/callbacks.html
+  warnings.warn(f'Old style callback is deprecated.  See: {link}', UserWarning)
+Exception in thread Thread-11:
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/apis/normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 1433, in upload_urls
+    raise CommError(f"Run does not exist {entity}/{project}/{run_id}.")
+wandb.errors.CommError: Run does not exist dylanli/Option-xgb-project/2q7o7r89.
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/filesync/upload_job.py", line 56, in run
+    success = self.push()
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/filesync/upload_job.py", line 112, in push
+    _, upload_headers, result = self._api.upload_urls(project, [self.save_name])
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/apis/normalize.py", line 58, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/apis/normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 1433, in upload_urls
+    raise CommError(f"Run does not exist {entity}/{project}/{run_id}.")
+wandb.errors.CommError: Run does not exist dylanli/Option-xgb-project/2q7o7r89.
+/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/xgboost/core.py:105: UserWarning: ntree_limit is deprecated, use `iteration_range` or model slicing instead.
+  warnings.warn(
+==================== val_0 ====================
+[    9    12    13 ... 27602 27609 27610]
+==================== val_1 ====================
+[    3     7    11 ... 27606 27611 27615]
+==================== val_2 ====================
+[    1     5     6 ... 27603 27613 27614]
+==================== val_3 ====================
+[    8    10    25 ... 27595 27598 27608]
+==================== val_4 ====================
+[    0     2     4 ... 27607 27612 27616]
+/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/pandas/core/common.py:241: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  result = np.asarray(values, dtype=dtype)

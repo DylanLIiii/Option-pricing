@@ -1,0 +1,126 @@
+==================== fold_0 Training ====================
+Epoch 1/100
+WARNING:tensorflow:AutoGraph could not transform <function Model.make_train_function.<locals>.train_function at 0x2cfd4faf0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: closure mismatch, requested ('self', 'step_function'), but source function had ()
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING: AutoGraph could not transform <function Model.make_train_function.<locals>.train_function at 0x2cfd4faf0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: closure mismatch, requested ('self', 'step_function'), but source function had ()
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+107/110 [============================>.] - ETA: 0s - loss: 12.9122 - val_loss: 12.9122
+/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/keras/optimizer_v2/adam.py:105: UserWarning:
+The `lr` argument is deprecated, use `learning_rate` instead.
+110/110 [==============================] - ETA: 0s - loss: 12.8782 - val_loss: 12.8258WARNING:tensorflow:AutoGraph could not transform <function Model.make_test_function.<locals>.test_function at 0x2a1b68ee0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: closure mismatch, requested ('self', 'step_function'), but source function had ()
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING: AutoGraph could not transform <function Model.make_test_function.<locals>.test_function at 0x2a1b68ee0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: closure mismatch, requested ('self', 'step_function'), but source function had ()
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+110/110 [==============================] - 2s 12ms/step - loss: 12.8782 - val_loss: 12.6408 - val_val_loss: 12.5875 - _timestamp: 1652164950.0000 - _runtime: 4.0000
+Epoch 2/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.9693 - val_loss: 11.9742 - _timestamp: 1652164951.0000 - _runtime: 5.0000
+Epoch 3/100
+106/110 [===========================>..] - ETA: 0s - loss: 12.0347 - val_loss: 12.0347
+110/110 [==============================] - 1s 8ms/step - loss: 11.9350 - val_loss: 11.8325 - _timestamp: 1652164952.0000 - _runtime: 6.0000
+Epoch 4/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.2797 - val_loss: 11.2185 - _timestamp: 1652164953.0000 - _runtime: 7.0000
+Epoch 5/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.0249 - val_loss: 10.9508 - _timestamp: 1652164954.0000 - _runtime: 8.0000
+Epoch 6/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.1047 - val_loss: 11.3139 - _timestamp: 1652164955.0000 - _runtime: 9.0000
+Epoch 7/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.4561 - val_loss: 11.5649 - _timestamp: 1652164956.0000 - _runtime: 10.0000
+Epoch 8/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.3408 - val_loss: 11.3314 - _timestamp: 1652164956.0000 - _runtime: 10.0000
+Epoch 9/100
+110/110 [==============================] - 1s 7ms/step - loss: 11.4215 - val_loss: 11.4420 - _timestamp: 1652164957.0000 - _runtime: 11.0000
+Epoch 10/100
+110/110 [==============================] - 1s 7ms/step - loss: 11.0769 - val_loss: 11.1044 - _timestamp: 1652164958.0000 - _runtime: 12.0000
+Epoch 11/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.2626 - val_loss: 11.3377 - _timestamp: 1652164959.0000 - _runtime: 13.0000
+Epoch 12/100
+110/110 [==============================] - 1s 7ms/step - loss: 11.0361 - val_loss: 11.0057 - _timestamp: 1652164960.0000 - _runtime: 14.0000
+Epoch 13/100
+110/110 [==============================] - 1s 7ms/step - loss: 11.1283 - val_loss: 11.1049 - _timestamp: 1652164961.0000 - _runtime: 15.0000
+Epoch 14/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.1417 - val_loss: 11.1016 - _timestamp: 1652164961.0000 - _runtime: 15.0000
+Epoch 15/100
+110/110 [==============================] - 1s 7ms/step - loss: 11.5609 - val_loss: 11.5458 - _timestamp: 1652164962.0000 - _runtime: 16.0000
+Epoch 16/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.5159 - val_loss: 11.4273 - _timestamp: 1652164963.0000 - _runtime: 17.0000
+Epoch 17/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.1866 - val_loss: 11.0958 - _timestamp: 1652164964.0000 - _runtime: 18.0000
+Epoch 18/100
+110/110 [==============================] - 1s 8ms/step - loss: 10.9421 - val_loss: 11.1943 - _timestamp: 1652164965.0000 - _runtime: 19.0000
+Epoch 19/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.1814 - val_loss: 11.7400 - _timestamp: 1652164966.0000 - _runtime: 20.0000
+Epoch 20/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.3900 - val_loss: 11.4008 - _timestamp: 1652164966.0000 - _runtime: 20.0000
+Epoch 21/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.2783 - val_loss: 11.2423 - _timestamp: 1652164967.0000 - _runtime: 21.0000
+Epoch 22/100
+110/110 [==============================] - 1s 8ms/step - loss: 10.7910 - val_loss: 10.7020 - _timestamp: 1652164968.0000 - _runtime: 22.0000
+Epoch 23/100
+110/110 [==============================] - 1s 7ms/step - loss: 11.2280 - val_loss: 11.2944 - _timestamp: 1652164969.0000 - _runtime: 23.0000
+Epoch 24/100
+110/110 [==============================] - 1s 8ms/step - loss: 10.9444 - val_loss: 11.0866 - _timestamp: 1652164970.0000 - _runtime: 24.0000
+Epoch 25/100
+110/110 [==============================] - 1s 8ms/step - loss: 10.8954 - val_loss: 10.8439 - _timestamp: 1652164971.0000 - _runtime: 25.0000
+Epoch 26/100
+110/110 [==============================] - 1s 7ms/step - loss: 11.3916 - val_loss: 11.4401 - _timestamp: 1652164971.0000 - _runtime: 25.0000
+Epoch 27/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.1337 - val_loss: 11.0764 - _timestamp: 1652164972.0000 - _runtime: 26.0000
+Epoch 28/100
+110/110 [==============================] - 1s 7ms/step - loss: 10.8237 - val_loss: 11.7298 - _timestamp: 1652164973.0000 - _runtime: 27.0000
+Epoch 29/100
+110/110 [==============================] - 1s 7ms/step - loss: 11.5851 - val_loss: 11.5634 - _timestamp: 1652164974.0000 - _runtime: 28.0000
+Epoch 30/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.1277 - val_loss: 11.0634 - _timestamp: 1652164975.0000 - _runtime: 29.0000
+Epoch 31/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.2353 - val_loss: 11.2122 - _timestamp: 1652164976.0000 - _runtime: 30.0000
+Epoch 32/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.2087 - val_loss: 11.1647 - _timestamp: 1652164976.0000 - _runtime: 30.0000
+Epoch 33/100
+110/110 [==============================] - 1s 7ms/step - loss: 11.2375 - val_loss: 11.2312 - _timestamp: 1652164977.0000 - _runtime: 31.0000
+Epoch 34/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.0830 - val_loss: 11.4008 - _timestamp: 1652164978.0000 - _runtime: 32.0000
+Epoch 35/100
+110/110 [==============================] - 1s 7ms/step - loss: 10.9987 - val_loss: 10.9828 - _timestamp: 1652164979.0000 - _runtime: 33.0000
+Epoch 36/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.0891 - val_loss: 11.2268 - _timestamp: 1652164980.0000 - _runtime: 34.0000
+Epoch 37/100
+110/110 [==============================] - 1s 8ms/step - loss: 11.3366 - val_loss: 11.2454 - _timestamp: 1652164981.0000 - _runtime: 35.0000
+Epoch 38/100
+110/110 [==============================] - 1s 7ms/step - loss: 11.3101 - val_loss: 11.3035 - _timestamp: 1652164981.0000 - _runtime: 35.0000
+Epoch 39/100
+110/110 [==============================] - 1s 8ms/step - loss: 10.9560 - val_loss: 10.9476 - _timestamp: 1652164982.0000 - _runtime: 36.0000
+Epoch 40/100
+110/110 [==============================] - 1s 8ms/step - loss: 10.9885 - val_loss: 10.9343 - _timestamp: 1652164983.0000 - _runtime: 37.0000
+Epoch 41/100
+110/110 [==============================] - 1s 9ms/step - loss: 11.1844 - val_loss: 11.2825 - _timestamp: 1652164984.0000 - _runtime: 38.0000
+Epoch 42/100
+Epoch 43/100===========================] - 1s 8ms/step - loss: 10.9260 - val_loss: 10.9201 - _timestamp: 1652164985.0000 - _runtime: 39.0000
+Epoch 43/100===========================] - 1s 8ms/step - loss: 10.9260 - val_loss: 10.9201 - _timestamp: 1652164985.0000 - _runtime: 39.0000
+110/110 [==============================] - 1s 7ms/step - loss: 10.9539 - val_loss: 10.8882 - _timestamp: 1652164986.0000 - _runtime: 40.0000
+Epoch 44/100
+110/110 [==============================] - 1s 8ms/step - loss: 10.9896 - val_loss: 10.9598 - _timestamp: 1652164988.0000 - _runtime: 42.0000
+Epoch 45/100
+110/110 [==============================] - 1s 7ms/step - loss: 11.3184 - val_loss: 11.2726 - _timestamp: 1652164987.0000 - _runtime: 41.0000
+Epoch 46/100
+110/110 [==============================] - 1s 8ms/step - loss: 10.9896 - val_loss: 10.9598 - _timestamp: 1652164988.0000 - _runtime: 42.0000
+Epoch 47/100
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+WARNING:tensorflow:AutoGraph could not transform <function Model.make_predict_function.<locals>.predict_function at 0x2cf3b0550> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: closure mismatch, requested ('self', 'step_function'), but source function had ()
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING: AutoGraph could not transform <function Model.make_predict_function.<locals>.predict_function at 0x2cf3b0550> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: closure mismatch, requested ('self', 'step_function'), but source function had ()
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+==================== fold_0 score ====================
+rmse: 32.11471268924405
+2022-05-10 14:43:09.755876: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:113] Plugin optimizer for device_type GPU is enabled.

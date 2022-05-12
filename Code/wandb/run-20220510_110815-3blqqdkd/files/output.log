@@ -1,0 +1,132 @@
+/var/folders/9l/qzgwttq17ps8lhfhrtgpdkx00000gn/T/ipykernel_39008/969992.py:25: UserWarning: wandb_callback will be deprecated in favor of WandbCallback. Please use WandbCallback for more features.
+  callback = wandb_callback()
+/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/xgboost/training.py:17: UserWarning: Old style callback is deprecated.  See: https://xgboost.readthedocs.io/en/latest/python/callbacks.html
+  warnings.warn(f'Old style callback is deprecated.  See: {link}', UserWarning)
+Exception in thread Thread-11:
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/apis/normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 1433, in upload_urls
+    raise CommError(f"Run does not exist {entity}/{project}/{run_id}.")
+wandb.errors.CommError: Run does not exist dylanli/Option-xgb-project/3blqqdkd.
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/filesync/upload_job.py", line 56, in run
+    success = self.push()
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/filesync/upload_job.py", line 112, in push
+    _, upload_headers, result = self._api.upload_urls(project, [self.save_name])
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/apis/normalize.py", line 58, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/apis/normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 1433, in upload_urls
+    raise CommError(f"Run does not exist {entity}/{project}/{run_id}.")
+wandb.errors.CommError: Run does not exist dylanli/Option-xgb-project/3blqqdkd.
+Will train until validation_0-rmse hasn't improved in 10 rounds.
+0	validation_0-rmse:30.46151
+1	validation_0-rmse:30.37773
+2	validation_0-rmse:30.29479
+3	validation_0-rmse:30.21351
+4	validation_0-rmse:30.13471
+5	validation_0-rmse:30.05671
+6	validation_0-rmse:29.98110
+7	validation_0-rmse:29.90624
+8	validation_0-rmse:29.82691
+9	validation_0-rmse:29.75202
+10	validation_0-rmse:29.67528
+11	validation_0-rmse:29.59999
+12	validation_0-rmse:29.52881
+13	validation_0-rmse:29.45611
+14	validation_0-rmse:29.38761
+15	validation_0-rmse:29.31214
+16	validation_0-rmse:29.24650
+17	validation_0-rmse:29.17901
+18	validation_0-rmse:29.10759
+19	validation_0-rmse:29.04570
+20	validation_0-rmse:28.98190
+21	validation_0-rmse:28.91738
+22	validation_0-rmse:28.85342
+23	validation_0-rmse:28.79276
+24	validation_0-rmse:28.73515
+25	validation_0-rmse:28.67197
+26	validation_0-rmse:28.61453
+27	validation_0-rmse:28.55553
+28	validation_0-rmse:28.49923
+29	validation_0-rmse:28.44174
+30	validation_0-rmse:28.39103
+31	validation_0-rmse:28.33962
+32	validation_0-rmse:28.28930
+33	validation_0-rmse:28.24151
+34	validation_0-rmse:28.19299
+35	validation_0-rmse:28.14544
+36	validation_0-rmse:28.10059
+37	validation_0-rmse:28.05273
+38	validation_0-rmse:28.00137
+39	validation_0-rmse:27.95916
+40	validation_0-rmse:27.91785
+41	validation_0-rmse:27.87638
+42	validation_0-rmse:27.83298
+43	validation_0-rmse:27.78956
+44	validation_0-rmse:27.75183
+45	validation_0-rmse:27.70564
+46	validation_0-rmse:27.66946
+47	validation_0-rmse:27.63212
+48	validation_0-rmse:27.59633
+49	validation_0-rmse:27.55298
+50	validation_0-rmse:27.51290
+51	validation_0-rmse:27.48030
+52	validation_0-rmse:27.44335
+53	validation_0-rmse:27.41317
+54	validation_0-rmse:27.37605
+55	validation_0-rmse:27.34603
+56	validation_0-rmse:27.31362
+57	validation_0-rmse:27.28483
+58	validation_0-rmse:27.25302
+59	validation_0-rmse:27.21897
+60	validation_0-rmse:27.19242
+61	validation_0-rmse:27.16242
+62	validation_0-rmse:27.13484
+63	validation_0-rmse:27.10585
+64	validation_0-rmse:27.07477
+65	validation_0-rmse:27.05099
+66	validation_0-rmse:27.02419
+67	validation_0-rmse:27.00034
+68	validation_0-rmse:26.97575
+69	validation_0-rmse:26.94446
+70	validation_0-rmse:26.92513
+71	validation_0-rmse:26.90034
+72	validation_0-rmse:26.87578
+73	validation_0-rmse:26.85158
+74	validation_0-rmse:26.82425
+75	validation_0-rmse:26.80550
+76	validation_0-rmse:26.78412
+77	validation_0-rmse:26.76580
+78	validation_0-rmse:26.74026
+79	validation_0-rmse:26.72280
+80	validation_0-rmse:26.70570
+81	validation_0-rmse:26.68711
+82	validation_0-rmse:26.66078
+83	validation_0-rmse:26.64313
+84	validation_0-rmse:26.61793
+85	validation_0-rmse:26.60491
+86	validation_0-rmse:26.58089
+87	validation_0-rmse:26.55700
+88	validation_0-rmse:26.53389
+89	validation_0-rmse:26.51091
+90	validation_0-rmse:26.48871
+91	validation_0-rmse:26.46662
+92	validation_0-rmse:26.44530
+93	validation_0-rmse:26.42362
+94	validation_0-rmse:26.40437
+95	validation_0-rmse:26.38353
+96	validation_0-rmse:26.36495
+97	validation_0-rmse:26.34491
+98	validation_0-rmse:26.32536
+99	validation_0-rmse:26.30791
+====================0 model trained====================
+==================== fold_0 ====================
+rmse: 26.307910274094223
+/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/xgboost/core.py:105: UserWarning: ntree_limit is deprecated, use `iteration_range` or model slicing instead.
+  warnings.warn(

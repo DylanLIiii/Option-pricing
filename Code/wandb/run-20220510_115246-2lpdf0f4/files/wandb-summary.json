@@ -1,0 +1,1 @@
+{"validation_0-rmse": 31.687073, "_timestamp": 1652154771, "_runtime": 5, "_step": 83, "chart": {"_type": "plotly-file", "sha256": "67f93987bf2a6d2ab3f906cf51f10d5cb2f182ab70e4e98aae5f83d384fd99f0", "size": 9068, "path": "media/plotly/chart_83_67f93987bf2a6d2ab3f9.plotly.json"}, "_wandb": {"runtime": 4}}

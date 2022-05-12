@@ -1,0 +1,19 @@
+{
+    "os": "macOS-12.4-arm64-arm-64bit",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-05-09T08:54:58.328513",
+    "startedAt": "2022-05-09T08:54:45.185390",
+    "docker": null,
+    "cpu_count": 10,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/Users/dylan/Library/Jupyter/runtime/kernel-f7752638-39ff-4ed8-9393-2107e725d952.json"
+    ],
+    "state": "running",
+    "program": "Code/ML_Model-jvsc-6036cb14-d2af-41e1-a5a6-dc803fa1315e.ipynb",
+    "root": "/Users/dylan/DylanLi/XJTLU/\u671f\u6743\u9879\u76ee",
+    "host": "192.168.0.107",
+    "username": "dylan",
+    "executable": "/Users/dylan/miniforge3/envs/tensorflow_env/bin/python"
+}

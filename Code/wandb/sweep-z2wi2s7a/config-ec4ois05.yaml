@@ -1,0 +1,14 @@
+wandb_version: 1
+
+activation:
+  value: relu
+dropout:
+  value: 0.8
+epochs:
+  value: 50
+learning_rate:
+  value: 0.1
+nn_nodes:
+  value: []
+optimizer:
+  value: sgd

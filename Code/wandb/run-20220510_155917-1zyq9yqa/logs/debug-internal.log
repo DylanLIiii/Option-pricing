@@ -1,0 +1,598 @@
+2022-05-10 15:59:18,348 INFO    MainThread:96974 [internal.py:wandb_internal():90] W&B internal server running at pid: 96974, started at: 2022-05-10 15:59:18.348264
+2022-05-10 15:59:18,349 INFO    WriterThread:96974 [datastore.py:open_for_write():75] open: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/run-1zyq9yqa.wandb
+2022-05-10 15:59:18,350 DEBUG   SenderThread:96974 [sender.py:send():232] send: header
+2022-05-10 15:59:18,350 DEBUG   SenderThread:96974 [sender.py:send():232] send: run
+2022-05-10 15:59:18,726 INFO    SenderThread:96974 [dir_watcher.py:__init__():166] watching files in: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files
+2022-05-10 15:59:18,727 INFO    SenderThread:96974 [sender.py:_start_run_threads():811] run started: 1zyq9yqa with start time 1652169557
+2022-05-10 15:59:18,727 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:18,727 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:18,728 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: check_version
+2022-05-10 15:59:18,728 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: check_version
+2022-05-10 15:59:19,499 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: run_start
+2022-05-10 15:59:19,997 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:20,009 DEBUG   HandlerThread:96974 [meta.py:__init__():35] meta init
+2022-05-10 15:59:20,009 DEBUG   HandlerThread:96974 [meta.py:__init__():49] meta init done
+2022-05-10 15:59:20,009 DEBUG   HandlerThread:96974 [meta.py:probe():209] probe
+2022-05-10 15:59:20,012 DEBUG   HandlerThread:96974 [git.py:repo():29] git repository is invalid
+2022-05-10 15:59:20,012 DEBUG   HandlerThread:96974 [meta.py:_save_pip():53] save pip
+2022-05-10 15:59:20,013 DEBUG   HandlerThread:96974 [meta.py:_save_pip():67] save pip done
+2022-05-10 15:59:20,013 DEBUG   HandlerThread:96974 [meta.py:_save_conda():74] save conda
+2022-05-10 15:59:21,006 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/requirements.txt
+2022-05-10 15:59:21,007 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/conda-environment.yaml
+2022-05-10 15:59:21,494 DEBUG   HandlerThread:96974 [meta.py:_save_conda():84] save conda done
+2022-05-10 15:59:21,494 DEBUG   HandlerThread:96974 [meta.py:probe():247] probe done
+2022-05-10 15:59:21,505 DEBUG   SenderThread:96974 [sender.py:send():232] send: telemetry
+2022-05-10 15:59:21,505 DEBUG   SenderThread:96974 [sender.py:send():232] send: files
+2022-05-10 15:59:21,505 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-metadata.json with policy now
+2022-05-10 15:59:21,510 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-10 15:59:21,510 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: stop_status
+2022-05-10 15:59:21,562 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: get_summary
+2022-05-10 15:59:21,834 DEBUG   SenderThread:96974 [sender.py:send():232] send: telemetry
+2022-05-10 15:59:21,834 DEBUG   SenderThread:96974 [sender.py:send():232] send: telemetry
+2022-05-10 15:59:21,834 DEBUG   SenderThread:96974 [sender.py:send():232] send: telemetry
+2022-05-10 15:59:21,834 DEBUG   SenderThread:96974 [sender.py:send():232] send: files
+2022-05-10 15:59:21,834 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file model-best.h5 with policy live
+2022-05-10 15:59:22,013 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/conda-environment.yaml
+2022-05-10 15:59:22,013 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 15:59:22,013 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-metadata.json
+2022-05-10 15:59:22,315 INFO    Thread-11 :96974 [upload_job.py:push():137] Uploaded file /var/folders/9l/qzgwttq17ps8lhfhrtgpdkx00000gn/T/tmpv8yklkxywandb/259bfwmx-wandb-metadata.json
+2022-05-10 15:59:22,322 DEBUG   SenderThread:96974 [sender.py:send():232] send: files
+2022-05-10 15:59:22,322 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file media/graph/graph_summary_a32303bed07b8b295d3f.graph.json with policy now
+2022-05-10 15:59:22,322 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:22,322 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:23,016 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:23,016 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/media/graph/graph_summary_a32303bed07b8b295d3f.graph.json
+2022-05-10 15:59:23,016 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/media
+2022-05-10 15:59:23,016 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/media/graph
+2022-05-10 15:59:23,115 INFO    Thread-12 :96974 [upload_job.py:push():137] Uploaded file /var/folders/9l/qzgwttq17ps8lhfhrtgpdkx00000gn/T/tmpv8yklkxywandb/3hgr6qwk-media/graph/graph_summary_a32303bed07b8b295d3f.graph.json
+2022-05-10 15:59:24,026 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 15:59:24,412 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:24,415 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:24,415 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:24,415 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:24,416 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:24,416 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:24,416 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:24,416 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:24,416 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:25,036 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:25,036 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/model-best.h5
+2022-05-10 15:59:25,854 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:25,854 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:25,855 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:25,855 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:25,855 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:26,045 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:26,045 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 15:59:26,080 INFO    Thread-13 :96974 [upload_job.py:push():137] Uploaded file /var/folders/9l/qzgwttq17ps8lhfhrtgpdkx00000gn/T/tmpv8yklkxywandb/1bxknvga-model-best.h5
+2022-05-10 15:59:27,181 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:27,181 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:27,182 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:27,182 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:27,182 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:28,047 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:28,047 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 15:59:28,541 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:28,541 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:28,542 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:28,542 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:28,542 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:29,049 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:29,884 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:29,884 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:29,885 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:29,885 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:29,885 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:30,050 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:30,050 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 15:59:31,197 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:31,198 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:31,198 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:31,198 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:31,199 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:32,058 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:32,058 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 15:59:32,567 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:32,567 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:32,567 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:32,567 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:32,568 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:33,060 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:33,917 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:33,918 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:33,918 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:33,918 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:33,919 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:34,061 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:34,061 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 15:59:35,284 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:35,284 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:35,285 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:35,285 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:35,285 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:36,079 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:36,079 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 15:59:36,622 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:36,622 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:36,623 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:36,623 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:36,624 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:36,845 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-10 15:59:36,845 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: stop_status
+2022-05-10 15:59:37,089 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:38,038 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:38,038 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:38,039 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:38,039 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:38,039 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:38,091 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:38,091 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 15:59:39,289 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:39,289 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:39,289 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:39,289 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:39,289 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:40,094 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:40,094 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 15:59:40,616 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:40,616 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:40,617 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:40,617 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:40,617 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:41,104 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:41,926 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:41,926 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:41,926 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:41,926 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:41,927 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:42,107 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:42,107 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 15:59:43,291 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:43,291 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:43,291 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:43,291 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:43,292 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:44,111 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:44,111 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 15:59:44,583 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:44,583 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:44,583 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:44,583 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:44,584 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:45,112 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:45,914 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:45,914 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:45,914 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:45,914 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:45,915 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:46,114 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:46,114 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 15:59:47,137 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:47,137 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:47,137 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:47,137 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:47,138 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:48,123 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:48,123 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 15:59:48,452 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:48,453 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:48,453 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:49,627 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:49,628 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:49,750 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:49,750 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:49,750 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:49,751 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:49,751 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:50,129 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:50,129 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/config.yaml
+2022-05-10 15:59:50,130 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 15:59:51,073 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:51,074 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:51,074 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:51,074 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:51,074 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:51,130 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:52,132 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 15:59:52,174 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-10 15:59:52,174 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: stop_status
+2022-05-10 15:59:52,322 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:52,323 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:52,739 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:52,739 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:52,740 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:53,136 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:53,673 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:53,673 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:53,673 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:53,673 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:53,674 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:54,138 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:54,138 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 15:59:54,945 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:54,945 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:54,945 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:54,945 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:54,946 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:55,138 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:56,141 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 15:59:56,220 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:56,220 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:56,221 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:56,221 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:56,222 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:57,141 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:57,507 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:57,507 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:57,508 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:57,508 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:57,509 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:58,147 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:58,147 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 15:59:58,791 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:58,791 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 15:59:58,792 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 15:59:58,792 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 15:59:58,792 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 15:59:59,147 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 15:59:59,957 DEBUG   SenderThread:96974 [sender.py:send():232] send: stats
+2022-05-10 16:00:00,141 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:00,141 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:00,142 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:00,142 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:00,142 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:00,149 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:00,149 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 16:00:01,430 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:01,430 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:01,431 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:01,431 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:01,431 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:02,155 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:02,173 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 16:00:02,754 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:02,755 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:02,755 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:02,755 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:02,756 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:03,158 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:04,037 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:04,037 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:04,037 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:04,037 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:04,037 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:04,159 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:04,159 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 16:00:05,378 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:05,378 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:05,378 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:05,379 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:05,379 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:06,162 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:06,162 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 16:00:06,702 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:06,702 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:06,702 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:06,703 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:06,703 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:07,172 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:07,742 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-10 16:00:07,742 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: stop_status
+2022-05-10 16:00:08,042 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:08,042 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:08,112 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:08,112 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:08,113 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:08,183 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:08,183 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 16:00:09,259 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:09,259 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:09,259 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:09,259 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:09,260 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:10,187 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:10,187 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 16:00:10,498 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:10,499 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:10,500 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:10,500 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:10,500 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:11,191 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:11,808 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:11,808 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:11,808 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:11,808 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:11,808 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:12,199 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:12,199 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 16:00:13,066 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:13,070 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:13,071 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:13,071 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:13,071 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:13,200 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:14,207 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 16:00:14,347 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:14,348 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:14,348 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:14,348 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:14,348 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:15,210 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:15,605 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:15,605 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:15,606 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:15,606 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:15,606 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:16,211 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:16,211 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 16:00:16,936 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:16,940 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:16,941 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:16,941 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:16,942 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:17,216 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:18,207 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:18,208 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:18,208 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:18,208 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:18,208 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:18,224 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:18,225 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 16:00:19,564 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:19,564 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:19,564 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:19,564 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:19,565 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:20,232 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:20,232 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 16:00:20,788 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:20,789 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:20,789 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:20,789 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:20,789 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:21,232 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:22,039 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:22,039 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:22,040 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:22,040 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:22,040 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:22,234 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:22,234 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 16:00:23,113 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-10 16:00:23,113 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: stop_status
+2022-05-10 16:00:23,279 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:23,279 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:23,890 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:23,890 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:23,890 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:24,238 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:24,239 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 16:00:24,541 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:24,542 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:24,542 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:24,561 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:24,580 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:25,239 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:25,814 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:25,815 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:25,815 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:25,815 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:25,816 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:26,245 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:26,245 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 16:00:27,053 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:27,053 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:27,054 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:27,054 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:27,054 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:27,247 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:28,248 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 16:00:28,335 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:28,335 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:28,335 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:28,335 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:28,335 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:29,249 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:29,596 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:29,596 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-10 16:00:29,597 DEBUG   SenderThread:96974 [sender.py:send():232] send: history
+2022-05-10 16:00:29,597 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:29,597 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:30,260 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:30,260 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 16:00:30,311 DEBUG   SenderThread:96974 [sender.py:send():232] send: telemetry
+2022-05-10 16:00:30,312 DEBUG   SenderThread:96974 [sender.py:send():232] send: telemetry
+2022-05-10 16:00:30,984 DEBUG   SenderThread:96974 [sender.py:send():232] send: exit
+2022-05-10 16:00:30,985 INFO    SenderThread:96974 [sender.py:send_exit():368] handling exit code: 0
+2022-05-10 16:00:30,986 INFO    SenderThread:96974 [sender.py:send_exit():370] handling runtime: 71
+2022-05-10 16:00:30,987 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:30,988 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:30,989 INFO    SenderThread:96974 [sender.py:send_exit():376] send defer
+2022-05-10 16:00:30,989 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:30,991 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: defer
+2022-05-10 16:00:30,992 INFO    HandlerThread:96974 [handler.py:handle_request_defer():164] handle defer: 0
+2022-05-10 16:00:30,996 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: defer
+2022-05-10 16:00:30,996 INFO    SenderThread:96974 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-05-10 16:00:30,996 INFO    SenderThread:96974 [sender.py:transition_state():389] send defer: 1
+2022-05-10 16:00:31,001 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: defer
+2022-05-10 16:00:31,001 INFO    HandlerThread:96974 [handler.py:handle_request_defer():164] handle defer: 1
+2022-05-10 16:00:31,268 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:31,269 INFO    Thread-7  :96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 16:00:31,663 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:31,664 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: defer
+2022-05-10 16:00:31,664 INFO    SenderThread:96974 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-05-10 16:00:31,664 INFO    SenderThread:96974 [sender.py:transition_state():389] send defer: 2
+2022-05-10 16:00:31,664 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:31,664 DEBUG   SenderThread:96974 [sender.py:send():232] send: stats
+2022-05-10 16:00:31,664 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: defer
+2022-05-10 16:00:31,664 INFO    HandlerThread:96974 [handler.py:handle_request_defer():164] handle defer: 2
+2022-05-10 16:00:31,664 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: defer
+2022-05-10 16:00:31,664 INFO    SenderThread:96974 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-05-10 16:00:31,664 INFO    SenderThread:96974 [sender.py:transition_state():389] send defer: 3
+2022-05-10 16:00:31,664 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: defer
+2022-05-10 16:00:31,664 INFO    HandlerThread:96974 [handler.py:handle_request_defer():164] handle defer: 3
+2022-05-10 16:00:31,664 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: defer
+2022-05-10 16:00:31,664 INFO    SenderThread:96974 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-05-10 16:00:31,664 INFO    SenderThread:96974 [sender.py:transition_state():389] send defer: 4
+2022-05-10 16:00:31,665 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: defer
+2022-05-10 16:00:31,665 INFO    HandlerThread:96974 [handler.py:handle_request_defer():164] handle defer: 4
+2022-05-10 16:00:31,665 DEBUG   SenderThread:96974 [sender.py:send():232] send: summary
+2022-05-10 16:00:31,665 INFO    SenderThread:96974 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-10 16:00:31,665 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: defer
+2022-05-10 16:00:31,665 INFO    SenderThread:96974 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-05-10 16:00:31,665 INFO    SenderThread:96974 [sender.py:transition_state():389] send defer: 5
+2022-05-10 16:00:31,665 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: defer
+2022-05-10 16:00:31,665 INFO    HandlerThread:96974 [handler.py:handle_request_defer():164] handle defer: 5
+2022-05-10 16:00:31,665 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: defer
+2022-05-10 16:00:31,665 INFO    SenderThread:96974 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-05-10 16:00:31,775 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:32,039 INFO    SenderThread:96974 [sender.py:transition_state():389] send defer: 6
+2022-05-10 16:00:32,039 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:32,039 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: defer
+2022-05-10 16:00:32,039 INFO    HandlerThread:96974 [handler.py:handle_request_defer():164] handle defer: 6
+2022-05-10 16:00:32,040 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: defer
+2022-05-10 16:00:32,040 INFO    SenderThread:96974 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-05-10 16:00:32,040 INFO    SenderThread:96974 [dir_watcher.py:finish():279] shutting down directory watcher
+2022-05-10 16:00:32,151 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:32,281 INFO    SenderThread:96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/config.yaml
+2022-05-10 16:00:32,282 INFO    SenderThread:96974 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:32,283 INFO    SenderThread:96974 [dir_watcher.py:finish():309] scan: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files
+2022-05-10 16:00:32,283 INFO    SenderThread:96974 [dir_watcher.py:finish():323] scan save: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/requirements.txt requirements.txt
+2022-05-10 16:00:32,284 INFO    SenderThread:96974 [dir_watcher.py:finish():323] scan save: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log output.log
+2022-05-10 16:00:32,284 INFO    SenderThread:96974 [dir_watcher.py:finish():323] scan save: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/config.yaml config.yaml
+2022-05-10 16:00:32,284 INFO    SenderThread:96974 [dir_watcher.py:finish():323] scan save: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json wandb-summary.json
+2022-05-10 16:00:32,284 INFO    SenderThread:96974 [dir_watcher.py:finish():323] scan save: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/conda-environment.yaml conda-environment.yaml
+2022-05-10 16:00:32,285 INFO    SenderThread:96974 [dir_watcher.py:finish():323] scan save: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-metadata.json wandb-metadata.json
+2022-05-10 16:00:32,285 INFO    SenderThread:96974 [dir_watcher.py:finish():323] scan save: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/model-best.h5 model-best.h5
+2022-05-10 16:00:32,298 INFO    SenderThread:96974 [dir_watcher.py:finish():323] scan save: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/media/graph/graph_summary_a32303bed07b8b295d3f.graph.json media/graph/graph_summary_a32303bed07b8b295d3f.graph.json
+2022-05-10 16:00:32,298 INFO    SenderThread:96974 [sender.py:transition_state():389] send defer: 7
+2022-05-10 16:00:32,299 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:32,300 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: defer
+2022-05-10 16:00:32,301 INFO    HandlerThread:96974 [handler.py:handle_request_defer():164] handle defer: 7
+2022-05-10 16:00:32,306 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: defer
+2022-05-10 16:00:32,309 INFO    SenderThread:96974 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-05-10 16:00:32,310 INFO    SenderThread:96974 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-10 16:00:32,412 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:32,413 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:32,524 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:32,526 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:32,639 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:32,640 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:32,771 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:32,785 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:32,897 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:32,897 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:33,002 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:33,002 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:33,106 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:33,107 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:33,219 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:33,220 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:33,337 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:33,338 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:33,451 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:33,452 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:33,564 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:33,570 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:33,689 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:33,690 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:33,800 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:33,801 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:33,914 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:33,915 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:34,023 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:34,024 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:34,130 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:34,130 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:34,241 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:34,242 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:34,353 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:34,353 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:34,464 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:34,465 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:34,577 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:34,577 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:34,689 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:34,690 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:34,799 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:34,800 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:34,910 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:34,911 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:35,026 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:35,027 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:35,140 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:35,141 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:35,252 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:35,253 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:35,358 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:35,359 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:35,468 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:35,468 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:35,580 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:35,580 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:35,690 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:35,691 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:35,804 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:35,805 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:35,918 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:35,918 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:36,027 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:36,027 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:36,136 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:36,137 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:36,249 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:36,250 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:36,363 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:36,363 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:36,475 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:36,476 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:36,587 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:36,587 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:36,696 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:36,696 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:36,809 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:36,810 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:36,932 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:36,932 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:37,043 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:37,046 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:37,099 INFO    Thread-17 :96974 [upload_job.py:push():137] Uploaded file /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/wandb-summary.json
+2022-05-10 16:00:37,104 INFO    Thread-15 :96974 [upload_job.py:push():137] Uploaded file /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/output.log
+2022-05-10 16:00:37,105 INFO    Thread-14 :96974 [upload_job.py:push():137] Uploaded file /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/requirements.txt
+2022-05-10 16:00:37,111 INFO    Thread-16 :96974 [upload_job.py:push():137] Uploaded file /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/config.yaml
+2022-05-10 16:00:37,135 INFO    Thread-18 :96974 [upload_job.py:push():137] Uploaded file /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/files/conda-environment.yaml
+2022-05-10 16:00:37,158 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:37,160 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:37,272 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:37,273 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:37,347 INFO    Thread-6  :96974 [sender.py:transition_state():389] send defer: 8
+2022-05-10 16:00:37,348 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: defer
+2022-05-10 16:00:37,348 INFO    HandlerThread:96974 [handler.py:handle_request_defer():164] handle defer: 8
+2022-05-10 16:00:37,348 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: defer
+2022-05-10 16:00:37,349 INFO    SenderThread:96974 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-05-10 16:00:37,379 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:39,550 INFO    SenderThread:96974 [sender.py:transition_state():389] send defer: 9
+2022-05-10 16:00:39,551 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:39,552 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: defer
+2022-05-10 16:00:39,552 INFO    HandlerThread:96974 [handler.py:handle_request_defer():164] handle defer: 9
+2022-05-10 16:00:39,552 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: defer
+2022-05-10 16:00:39,552 INFO    SenderThread:96974 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-05-10 16:00:39,552 INFO    SenderThread:96974 [sender.py:transition_state():389] send defer: 10
+2022-05-10 16:00:39,553 DEBUG   SenderThread:96974 [sender.py:send():232] send: final
+2022-05-10 16:00:39,554 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: defer
+2022-05-10 16:00:39,554 DEBUG   SenderThread:96974 [sender.py:send():232] send: footer
+2022-05-10 16:00:39,554 INFO    HandlerThread:96974 [handler.py:handle_request_defer():164] handle defer: 10
+2022-05-10 16:00:39,555 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: defer
+2022-05-10 16:00:39,555 INFO    SenderThread:96974 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-05-10 16:00:39,663 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-10 16:00:39,664 DEBUG   SenderThread:96974 [sender.py:send_request():246] send_request: poll_exit
+2022-05-10 16:00:39,665 INFO    SenderThread:96974 [file_pusher.py:join():150] waiting for file pusher
+2022-05-10 16:00:40,486 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: sampled_history
+2022-05-10 16:00:40,489 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: get_summary
+2022-05-10 16:00:40,490 DEBUG   HandlerThread:96974 [handler.py:handle_request():141] handle_request: shutdown
+2022-05-10 16:00:40,491 INFO    HandlerThread:96974 [handler.py:finish():806] shutting down handler
+2022-05-10 16:00:40,561 INFO    WriterThread:96974 [datastore.py:close():279] close: /Users/dylan/DylanLi/XJTLU/期权项目/Code/wandb/run-20220510_155917-1zyq9yqa/run-1zyq9yqa.wandb
+2022-05-10 16:00:41,382 INFO    SenderThread:96974 [sender.py:finish():1106] shutting down sender
+2022-05-10 16:00:41,383 INFO    SenderThread:96974 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-10 16:00:41,383 INFO    SenderThread:96974 [file_pusher.py:join():150] waiting for file pusher
+2022-05-10 16:00:41,386 INFO    MainThread:96974 [internal.py:handle_exit():80] Internal process exited

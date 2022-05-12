@@ -1,0 +1,17 @@
+wandb_version: 1
+
+activation:
+  value: selu
+dropout:
+  value: 0.8
+epochs:
+  value: 50
+learning_rate:
+  value: 0.0003
+nn_nodes:
+  value:
+  - 128
+  - 32
+  - 16
+optimizer:
+  value: rmsprop

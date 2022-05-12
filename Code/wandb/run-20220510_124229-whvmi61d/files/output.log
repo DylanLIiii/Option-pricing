@@ -1,0 +1,46 @@
+Will train until validation_0-rmse hasn't improved in 10 rounds.
+0	validation_0-rmse:35.44828
+1	validation_0-rmse:35.40964
+2	validation_0-rmse:35.36894
+3	validation_0-rmse:35.33028
+4	validation_0-rmse:35.29376
+5	validation_0-rmse:35.25879
+6	validation_0-rmse:35.22646
+7	validation_0-rmse:35.19617
+8	validation_0-rmse:35.17069
+9	validation_0-rmse:35.14880
+10	validation_0-rmse:35.12785
+11	validation_0-rmse:35.10157
+12	validation_0-rmse:35.08596
+13	validation_0-rmse:35.07278
+14	validation_0-rmse:35.06044
+15	validation_0-rmse:35.05062
+16	validation_0-rmse:35.03414
+17	validation_0-rmse:35.02880
+18	validation_0-rmse:35.02141
+19	validation_0-rmse:35.02078
+20	validation_0-rmse:35.01667
+21	validation_0-rmse:35.01862
+22	validation_0-rmse:35.01882
+23	validation_0-rmse:35.02425
+24	validation_0-rmse:35.01519
+25	validation_0-rmse:35.01794
+26	validation_0-rmse:35.02248
+27	validation_0-rmse:35.03440
+28	validation_0-rmse:35.04107
+29	validation_0-rmse:35.04856
+30	validation_0-rmse:35.06575
+31	validation_0-rmse:35.07566
+32	validation_0-rmse:35.07083
+33	validation_0-rmse:35.08543
+Stopping. Best iteration:
+[24]	validation_0-rmse:35.01519
+====================1 model trained====================
+==================== fold_1 ====================
+rmse: 35.015188964402796
+/var/folders/9l/qzgwttq17ps8lhfhrtgpdkx00000gn/T/ipykernel_39008/2547081518.py:27: UserWarning:
+wandb_callback will be deprecated in favor of WandbCallback. Please use WandbCallback for more features.
+/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/xgboost/training.py:17: UserWarning:
+Old style callback is deprecated.  See: https://xgboost.readthedocs.io/en/latest/python/callbacks.html
+/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/xgboost/core.py:105: UserWarning:
+ntree_limit is deprecated, use `iteration_range` or model slicing instead.
