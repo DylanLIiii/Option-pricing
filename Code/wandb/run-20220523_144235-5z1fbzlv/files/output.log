@@ -1,0 +1,39 @@
+Will train until validation_0-rmse hasn't improved in 10 rounds.
+0	validation_0-rmse:142.61745
+1	validation_0-rmse:142.50748
+2	validation_0-rmse:142.41206
+/var/folders/9l/qzgwttq17ps8lhfhrtgpdkx00000gn/T/ipykernel_78287/2547081518.py:27: UserWarning: wandb_callback will be deprecated in favor of WandbCallback. Please use WandbCallback for more features.
+  callback = wandb_callback()
+/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/xgboost/training.py:17: UserWarning: Old style callback is deprecated.  See: https://xgboost.readthedocs.io/en/latest/python/callbacks.html
+  warnings.warn(f'Old style callback is deprecated.  See: {link}', UserWarning)
+3	validation_0-rmse:142.33060
+4	validation_0-rmse:142.26498
+5	validation_0-rmse:142.21133
+6	validation_0-rmse:142.17290
+7	validation_0-rmse:142.10118
+8	validation_0-rmse:142.08679
+9	validation_0-rmse:142.03714
+10	validation_0-rmse:142.04730
+11	validation_0-rmse:141.99808
+12	validation_0-rmse:141.95075
+13	validation_0-rmse:141.93042
+14	validation_0-rmse:141.93335
+15	validation_0-rmse:141.93486
+16	validation_0-rmse:141.92920
+17	validation_0-rmse:141.95137
+18	validation_0-rmse:141.97661
+19	validation_0-rmse:141.99751
+20	validation_0-rmse:142.04988
+21	validation_0-rmse:142.08693
+22	validation_0-rmse:142.15730
+23	validation_0-rmse:142.22583
+24	validation_0-rmse:142.28856
+25	validation_0-rmse:142.36003
+Stopping. Best iteration:
+[16]	validation_0-rmse:141.92920
+{"CONFIG": "type", "GroupKFold": "ABCMeta", "GroupTimeSeriesSplit": "ABCMeta", "KFold": "ABCMeta", "PurgedGroupTimeSeriesSplit": "ABCMeta", "SimpleImputer": "type", "TimeSeriesSplit": "ABCMeta", "WandbCallback": "type", "builtins": "module", "cal_rv": "function", "data": "DataFrame", "data_C": "DataFrame", "data_P": "DataFrame", "datetime": "module", "features": "list", "gc": "module", "indexable": "function", "keras": "module", "layers": "module", "log_loss": "function", "math": "module", "mean_squared_error": "function", "np": "module", "os": "module", "pd": "module", "plt": "module", "preprocessing": "module", "px": "module", "setup_cv": "function", "stats": "module", "sys": "module", "target": "list", "tf": "module", "time": "module", "wandb": "module", "wandb_callback": "function", "xgb": "module", "xgb_model": "function"}
+{"CONFIG": "type", "GroupKFold": "ABCMeta", "GroupTimeSeriesSplit": "ABCMeta", "KFold": "ABCMeta", "PurgedGroupTimeSeriesSplit": "ABCMeta", "SimpleImputer": "type", "TimeSeriesSplit": "ABCMeta", "WandbCallback": "type", "builtins": "module", "cal_rv": "function", "data": "DataFrame", "data_C": "DataFrame", "data_P": "DataFrame", "datetime": "module", "features": "list", "gc": "module", "indexable": "function", "keras": "module", "layers": "module", "log_loss": "function", "math": "module", "mean_squared_error": "function", "np": "module", "os": "module", "pd": "module", "plt": "module", "preprocessing": "module", "px": "module", "setup_cv": "function", "stats": "module", "sys": "module", "target": "list", "tf": "module", "time": "module", "wandb": "module", "wandb_callback": "function", "xgb": "module", "xgb_model": "function"}
+{"CONFIG": "type", "GroupKFold": "ABCMeta", "GroupTimeSeriesSplit": "ABCMeta", "KFold": "ABCMeta", "PurgedGroupTimeSeriesSplit": "ABCMeta", "SimpleImputer": "type", "TimeSeriesSplit": "ABCMeta", "WandbCallback": "type", "builtins": "module", "cal_rv": "function", "data": "DataFrame", "data_C": "DataFrame", "data_P": "DataFrame", "datetime": "module", "features": "list", "gc": "module", "indexable": "function", "keras": "module", "layers": "module", "log_loss": "function", "math": "module", "mean_squared_error": "function", "np": "module", "os": "module", "pd": "module", "plt": "module", "preprocessing": "module", "px": "module", "setup_cv": "function", "stats": "module", "sys": "module", "target": "list", "tf": "module", "time": "module", "wandb": "module", "wandb_callback": "function", "xgb": "module", "xgb_model": "function"}
+{"CONFIG": "type", "GroupKFold": "ABCMeta", "GroupTimeSeriesSplit": "ABCMeta", "KFold": "ABCMeta", "PurgedGroupTimeSeriesSplit": "ABCMeta", "SimpleImputer": "type", "TimeSeriesSplit": "ABCMeta", "WandbCallback": "type", "builtins": "module", "cal_rv": "function", "data": "DataFrame", "data_C": "DataFrame", "data_P": "DataFrame", "datetime": "module", "features": "list", "gc": "module", "indexable": "function", "keras": "module", "layers": "module", "log_loss": "function", "math": "module", "mean_squared_error": "function", "np": "module", "os": "module", "pd": "module", "plt": "module", "preprocessing": "module", "px": "module", "setup_cv": "function", "stats": "module", "sys": "module", "target": "list", "tf": "module", "time": "module", "wandb": "module", "wandb_callback": "function", "xgb": "module", "xgb_model": "function"}
+{"CONFIG": "type", "GroupKFold": "ABCMeta", "GroupTimeSeriesSplit": "ABCMeta", "KFold": "ABCMeta", "PurgedGroupTimeSeriesSplit": "ABCMeta", "SimpleImputer": "type", "TimeSeriesSplit": "ABCMeta", "WandbCallback": "type", "builtins": "module", "cal_rv": "function", "data": "DataFrame", "data_C": "DataFrame", "data_P": "DataFrame", "datetime": "module", "features": "list", "gc": "module", "indexable": "function", "keras": "module", "layers": "module", "log_loss": "function", "math": "module", "mean_squared_error": "function", "np": "module", "os": "module", "pd": "module", "plt": "module", "preprocessing": "module", "px": "module", "setup_cv": "function", "stats": "module", "sys": "module", "target": "list", "tf": "module", "time": "module", "wandb": "module", "wandb_callback": "function", "xgb": "module", "xgb_model": "function"}
+{"CONFIG": "type", "GroupKFold": "ABCMeta", "GroupTimeSeriesSplit": "ABCMeta", "KFold": "ABCMeta", "PurgedGroupTimeSeriesSplit": "ABCMeta", "SimpleImputer": "type", "TimeSeriesSplit": "ABCMeta", "WandbCallback": "type", "builtins": "module", "cal_rv": "function", "data": "DataFrame", "data_C": "DataFrame", "data_P": "DataFrame", "datetime": "module", "features": "list", "gc": "module", "indexable": "function", "keras": "module", "layers": "module", "log_loss": "function", "math": "module", "mean_squared_error": "function", "np": "module", "os": "module", "pd": "module", "plt": "module", "preprocessing": "module", "px": "module", "setup_cv": "function", "stats": "module", "sys": "module", "target": "list", "tf": "module", "time": "module", "wandb": "module", "wandb_callback": "function", "xgb": "module", "xgb_model": "function"}

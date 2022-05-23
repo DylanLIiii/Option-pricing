@@ -1,0 +1,1108 @@
+2022-05-23 14:46:21,332 INFO    MainThread:1251 [internal.py:wandb_internal():90] W&B internal server running at pid: 1251, started at: 2022-05-23 14:46:21.312368
+2022-05-23 14:46:21,334 INFO    WriterThread:1251 [datastore.py:open_for_write():75] open: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/run-2c0nme2i.wandb
+2022-05-23 14:46:21,335 DEBUG   SenderThread:1251 [sender.py:send():232] send: header
+2022-05-23 14:46:21,350 DEBUG   SenderThread:1251 [sender.py:send():232] send: run
+2022-05-23 14:46:21,774 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: check_version
+2022-05-23 14:46:21,775 INFO    SenderThread:1251 [dir_watcher.py:__init__():166] watching files in: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files
+2022-05-23 14:46:21,775 INFO    SenderThread:1251 [sender.py:_start_run_threads():811] run started: 2c0nme2i with start time 1653288380
+2022-05-23 14:46:21,775 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:21,775 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:21,775 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: check_version
+2022-05-23 14:46:22,094 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: run_start
+2022-05-23 14:46:22,777 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:23,798 DEBUG   HandlerThread:1251 [meta.py:__init__():35] meta init
+2022-05-23 14:46:23,798 DEBUG   HandlerThread:1251 [meta.py:__init__():49] meta init done
+2022-05-23 14:46:23,803 DEBUG   HandlerThread:1251 [meta.py:probe():209] probe
+2022-05-23 14:46:23,820 DEBUG   HandlerThread:1251 [meta.py:_setup_git():199] setup git
+2022-05-23 14:46:23,881 DEBUG   HandlerThread:1251 [meta.py:_setup_git():206] setup git done
+2022-05-23 14:46:23,894 DEBUG   HandlerThread:1251 [meta.py:_save_pip():53] save pip
+2022-05-23 14:46:23,913 DEBUG   HandlerThread:1251 [meta.py:_save_pip():67] save pip done
+2022-05-23 14:46:23,913 DEBUG   HandlerThread:1251 [meta.py:_save_conda():74] save conda
+2022-05-23 14:46:24,787 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/requirements.txt
+2022-05-23 14:46:24,787 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/conda-environment.yaml
+2022-05-23 14:46:26,266 DEBUG   HandlerThread:1251 [meta.py:_save_conda():84] save conda done
+2022-05-23 14:46:26,284 DEBUG   HandlerThread:1251 [meta.py:probe():247] probe done
+2022-05-23 14:46:26,287 DEBUG   SenderThread:1251 [sender.py:send():232] send: telemetry
+2022-05-23 14:46:26,292 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 14:46:26,305 DEBUG   SenderThread:1251 [sender.py:send():232] send: files
+2022-05-23 14:46:26,305 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-metadata.json with policy now
+2022-05-23 14:46:26,305 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 14:46:26,723 DEBUG   SenderThread:1251 [sender.py:send():232] send: telemetry
+2022-05-23 14:46:26,730 DEBUG   SenderThread:1251 [sender.py:send():232] send: telemetry
+2022-05-23 14:46:26,792 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/conda-environment.yaml
+2022-05-23 14:46:26,808 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-metadata.json
+2022-05-23 14:46:26,808 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:46:27,017 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:27,032 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:27,033 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:27,033 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:27,034 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:27,483 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:27,487 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:27,487 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:27,488 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:27,488 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:27,795 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:28,131 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:28,158 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:28,158 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:28,159 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:28,159 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:28,732 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:28,748 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:28,749 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:28,749 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:28,749 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:28,798 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:28,809 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:46:29,312 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:29,329 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:29,329 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:29,329 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:29,330 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:29,804 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:29,912 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:29,914 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:29,915 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:29,915 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:29,915 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:30,392 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:30,397 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:30,398 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:30,398 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:30,398 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:30,809 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:30,809 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:46:30,877 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:30,896 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:30,896 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:30,917 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:30,935 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:31,403 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:31,415 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:31,416 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:31,450 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:31,451 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:31,811 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:31,832 ERROR   Thread-11 :1251 [internal_api.py:upload_file():1639] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/dylanli/Option-xgb-project/2c0nme2i/wandb-metadata.json?Expires=1653374786&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=R%2BBl2vDOkgqkh4XA4hDf1VI71bqD%2FcerLEDFSZd978XebczEEm5CrAfkEcIwz33posBWvtmOWu0%2F7VMNHFxcgGtEVPhMlyDJYB74ps7WGLAxOKiv5EfXYW%2FAZ1CqljuOOexXzg71ZlMTLJB8QB1aYsBLx8n5oB51vr1V9jHDwb4N0mXpvbKwnYwez8uVN00U6KYLekXwIWgtJ1f%2BLslkVFqP62S4dSBEcjCKoELPyljPfmxRHb9I5tJZgha5hJqtRSqViG2BKvqsZtA5xACBnkS2u5pSf3IR%2F%2FcRxkTxVgNC9inahFF3EVYb8PlzebTMwes%2F8%2B%2F0e1cbrLK%2FRNGIww%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/dylanli/Option-xgb-project/2c0nme2i/wandb-metadata.json?Expires=1653374786&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=R%2BBl2vDOkgqkh4XA4hDf1VI71bqD%2FcerLEDFSZd978XebczEEm5CrAfkEcIwz33posBWvtmOWu0%2F7VMNHFxcgGtEVPhMlyDJYB74ps7WGLAxOKiv5EfXYW%2FAZ1CqljuOOexXzg71ZlMTLJB8QB1aYsBLx8n5oB51vr1V9jHDwb4N0mXpvbKwnYwez8uVN00U6KYLekXwIWgtJ1f%2BLslkVFqP62S4dSBEcjCKoELPyljPfmxRHb9I5tJZgha5hJqtRSqViG2BKvqsZtA5xACBnkS2u5pSf3IR%2F%2FcRxkTxVgNC9inahFF3EVYb8PlzebTMwes%2F8%2B%2F0e1cbrLK%2FRNGIww%3D%3D (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2022-05-23 14:46:31,848 ERROR   Thread-11 :1251 [internal_api.py:upload_file():1641] upload_file request headers: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '865'}
+2022-05-23 14:46:31,848 ERROR   Thread-11 :1251 [internal_api.py:upload_file():1643] upload_file response body: 
+2022-05-23 14:46:32,001 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:32,002 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:32,006 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:32,022 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:32,023 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:32,636 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:32,650 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:32,650 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:32,650 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:32,669 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:32,817 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:32,820 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:46:33,130 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:33,134 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:33,134 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:33,135 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:33,135 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:33,734 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:33,748 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:33,749 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:33,749 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:33,749 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:33,822 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:34,158 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:34,168 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:34,169 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:34,169 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:34,169 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:34,662 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:34,666 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:34,667 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:34,685 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:34,686 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:34,827 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:34,841 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:46:35,248 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:35,267 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:35,267 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:35,285 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:35,286 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:35,832 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:36,051 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:36,069 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:36,069 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:36,069 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:36,070 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:36,835 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:36,838 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:46:36,887 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:36,902 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:36,902 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:36,902 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:36,902 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:37,206 INFO    Thread-11 :1251 [upload_job.py:push():137] Uploaded file /var/folders/9l/qzgwttq17ps8lhfhrtgpdkx00000gn/T/tmpchsptsxwwandb/hxtr9s5k-wandb-metadata.json
+2022-05-23 14:46:37,624 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:37,624 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:37,624 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:37,624 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:37,628 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:37,841 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:38,513 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:38,521 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:38,521 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:38,521 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:38,521 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:38,845 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:38,852 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:46:39,143 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:39,156 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:39,156 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:39,157 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:39,157 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:39,846 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:39,887 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:39,900 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:39,901 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:39,901 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:39,901 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:40,732 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:40,746 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:40,746 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:40,746 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:40,747 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:40,852 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:40,852 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:46:41,221 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:41,237 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:41,237 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:41,237 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:41,238 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:41,726 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 14:46:41,737 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 14:46:41,857 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:41,905 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:41,918 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:42,150 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:42,157 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:42,158 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:42,568 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:42,576 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:42,576 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:42,576 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:42,577 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:42,862 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:42,862 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:46:43,218 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:43,221 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:43,222 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:43,222 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:43,223 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:43,868 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:44,006 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:44,024 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:44,025 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:44,025 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:44,025 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:44,873 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:44,873 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:46:44,901 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:44,912 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:44,912 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:44,912 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:44,913 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:45,634 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:45,649 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:45,649 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:45,649 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:45,667 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:45,876 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:46,234 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:46,250 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:46,251 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:46,268 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:46,269 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:46,783 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:46,789 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:46,789 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:46,789 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:46,789 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:46,879 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:46,893 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:46:47,192 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:47,206 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:47,206 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:47,206 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:47,206 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:47,734 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:47,739 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:47,740 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:47,758 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:47,759 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:47,881 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:48,110 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:48,122 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:48,122 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:48,122 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:48,122 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:48,452 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:48,469 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:48,469 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:48,469 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:48,469 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:48,774 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:48,782 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:48,783 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:48,783 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:48,783 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:48,884 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:48,884 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:46:49,102 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:49,108 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:49,109 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:49,109 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:49,109 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:49,528 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:49,539 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:49,539 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:49,539 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:49,539 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:49,889 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:49,933 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:49,944 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:49,944 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:49,944 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:49,944 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:50,231 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:50,247 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:50,247 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:50,247 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:50,266 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:50,712 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:50,718 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:50,719 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:50,719 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:50,719 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:50,895 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:50,904 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:46:51,041 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:51,054 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:51,055 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:51,055 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:51,055 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:51,452 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:51,458 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:51,458 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:51,804 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:51,816 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:51,877 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:51,877 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:51,878 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:51,878 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:51,878 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:51,898 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:51,900 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/config.yaml
+2022-05-23 14:46:52,097 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:52,100 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:52,100 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:52,100 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:52,100 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:52,515 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:52,529 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:52,529 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:52,529 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:52,529 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:52,901 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:52,909 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:46:52,925 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:52,929 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:52,930 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:52,930 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:52,949 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:53,259 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:53,277 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:53,277 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:53,277 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:53,295 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:53,710 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:53,725 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:53,725 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:53,725 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:53,726 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:53,906 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:54,031 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:54,040 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:54,040 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:54,040 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:54,040 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:54,398 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:54,416 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:54,416 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:54,417 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:54,417 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:54,831 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:54,848 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:54,848 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:54,848 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:54,848 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:54,909 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:54,909 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:46:55,148 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:55,157 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:55,157 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:55,157 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:55,157 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:55,578 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:55,588 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:55,588 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:55,589 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:55,589 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:55,901 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:55,913 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:55,913 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:55,913 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:55,913 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:55,914 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:56,226 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:56,242 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:56,242 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:56,242 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:56,260 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:56,660 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:56,671 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:56,671 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:56,671 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:56,672 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:56,920 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:56,931 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:46:56,994 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:57,000 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:57,000 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:57,000 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:57,001 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:57,152 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 14:46:57,152 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 14:46:57,308 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:57,330 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:57,578 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:57,579 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:57,579 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:57,787 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:57,801 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:57,801 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:57,801 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:57,801 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:57,925 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:58,299 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:58,311 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:58,311 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:58,311 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:58,311 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:58,731 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:58,740 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:58,740 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:58,740 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:58,740 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:58,929 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:58,939 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:46:59,029 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:59,042 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:59,042 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:59,043 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:59,043 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:59,304 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:59,317 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:59,317 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:59,317 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:59,317 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:59,700 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:59,718 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:59,718 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:59,719 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:46:59,720 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:46:59,933 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:46:59,999 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:59,999 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:46:59,999 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:46:59,999 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:00,000 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:00,325 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:00,340 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:00,340 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:00,340 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:00,340 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:00,675 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:00,675 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:00,676 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:00,693 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:00,694 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:00,938 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:47:00,946 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:47:00,954 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:00,967 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:00,967 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:00,968 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:00,968 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:01,280 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:01,289 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:01,289 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:01,289 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:01,290 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:01,678 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:01,689 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:01,689 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:01,689 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:01,689 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:01,939 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:47:01,993 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:02,009 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:02,009 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:02,009 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:02,010 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:02,342 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:02,343 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:02,343 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:02,343 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:02,343 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:02,718 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:02,729 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:02,729 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:02,729 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:02,748 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:02,945 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:47:02,959 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:47:03,035 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:03,039 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:03,039 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:03,040 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:03,040 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:03,393 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:03,395 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:03,396 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:03,396 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:03,397 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:03,793 DEBUG   SenderThread:1251 [sender.py:send():232] send: stats
+2022-05-23 14:47:03,832 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:03,849 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:03,849 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:03,849 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:03,850 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:03,950 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:47:04,206 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:04,209 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:04,211 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:04,211 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:04,211 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:04,637 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:04,652 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:04,652 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:04,652 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:04,652 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:04,951 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:04,952 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:47:04,964 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:04,964 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:47:04,964 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:04,964 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:04,964 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:05,288 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:05,306 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:05,306 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:05,306 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:05,307 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:05,723 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:05,728 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:05,729 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:05,729 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:05,748 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:05,954 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:47:06,025 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:06,033 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:06,033 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:06,033 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:06,034 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:06,321 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:06,324 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:06,324 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:06,325 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:06,325 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:06,727 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:06,736 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:06,736 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:06,736 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:06,737 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:06,959 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:47:06,961 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:47:07,066 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:07,066 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:07,067 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:07,067 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:07,067 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:07,450 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:07,460 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:07,460 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:07,460 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:07,461 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:07,784 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:07,784 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:07,784 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:07,784 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:07,785 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:07,961 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:47:08,065 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:08,082 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:08,083 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:08,083 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:08,083 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:08,527 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:08,536 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:08,537 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:08,537 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:08,556 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:08,936 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:08,947 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:08,947 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:08,948 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:08,948 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:08,967 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:47:08,967 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:47:09,291 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:09,296 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:09,297 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:09,297 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:09,298 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:09,671 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:09,681 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:09,681 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:09,681 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:09,681 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:09,972 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:47:10,032 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:10,046 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:10,047 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:10,047 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:10,047 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:10,379 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:10,380 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:10,380 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:10,380 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:10,381 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:10,788 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:10,795 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:10,815 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:10,832 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:10,832 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:10,974 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:47:10,984 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:47:11,105 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:11,114 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:11,115 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:11,115 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:11,115 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:11,493 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:11,499 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:11,499 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:11,500 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:11,500 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:11,894 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:11,902 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:11,903 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:11,903 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:11,903 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:11,976 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:47:12,090 DEBUG   SenderThread:1251 [sender.py:send():232] send: files
+2022-05-23 14:47:12,094 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file media/plotly/chart_100_d7c84dff82fb106cd068.plotly.json with policy now
+2022-05-23 14:47:12,098 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-23 14:47:12,133 DEBUG   SenderThread:1251 [sender.py:send():232] send: history
+2022-05-23 14:47:12,167 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:12,167 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:12,333 DEBUG   SenderThread:1251 [sender.py:send():232] send: telemetry
+2022-05-23 14:47:12,367 DEBUG   SenderThread:1251 [sender.py:send():232] send: telemetry
+2022-05-23 14:47:12,978 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:47:12,979 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:47:12,979 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/media/plotly/chart_100_d7c84dff82fb106cd068.plotly.json
+2022-05-23 14:47:12,979 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/media/plotly
+2022-05-23 14:47:12,979 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/media
+2022-05-23 14:47:13,130 DEBUG   SenderThread:1251 [sender.py:send():232] send: exit
+2022-05-23 14:47:13,130 INFO    SenderThread:1251 [sender.py:send_exit():368] handling exit code: 0
+2022-05-23 14:47:13,131 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:13,148 INFO    SenderThread:1251 [sender.py:send_exit():370] handling runtime: 51
+2022-05-23 14:47:13,149 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:13,149 INFO    SenderThread:1251 [sender.py:send_exit():376] send defer
+2022-05-23 14:47:13,149 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:13,150 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: defer
+2022-05-23 14:47:13,168 INFO    HandlerThread:1251 [handler.py:handle_request_defer():164] handle defer: 0
+2022-05-23 14:47:13,169 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: defer
+2022-05-23 14:47:13,169 INFO    SenderThread:1251 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-05-23 14:47:13,169 INFO    SenderThread:1251 [sender.py:transition_state():389] send defer: 1
+2022-05-23 14:47:13,169 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: defer
+2022-05-23 14:47:13,169 INFO    HandlerThread:1251 [handler.py:handle_request_defer():164] handle defer: 1
+2022-05-23 14:47:13,981 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:47:13,994 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:47:14,164 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:14,164 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: defer
+2022-05-23 14:47:14,168 INFO    SenderThread:1251 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-05-23 14:47:14,168 INFO    SenderThread:1251 [sender.py:transition_state():389] send defer: 2
+2022-05-23 14:47:14,168 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:14,170 DEBUG   SenderThread:1251 [sender.py:send():232] send: stats
+2022-05-23 14:47:14,173 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: defer
+2022-05-23 14:47:14,188 INFO    HandlerThread:1251 [handler.py:handle_request_defer():164] handle defer: 2
+2022-05-23 14:47:14,188 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: defer
+2022-05-23 14:47:14,188 INFO    SenderThread:1251 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-05-23 14:47:14,188 INFO    SenderThread:1251 [sender.py:transition_state():389] send defer: 3
+2022-05-23 14:47:14,210 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: defer
+2022-05-23 14:47:14,228 INFO    HandlerThread:1251 [handler.py:handle_request_defer():164] handle defer: 3
+2022-05-23 14:47:14,231 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: defer
+2022-05-23 14:47:14,248 INFO    SenderThread:1251 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-05-23 14:47:14,248 INFO    SenderThread:1251 [sender.py:transition_state():389] send defer: 4
+2022-05-23 14:47:14,284 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: defer
+2022-05-23 14:47:14,302 INFO    HandlerThread:1251 [handler.py:handle_request_defer():164] handle defer: 4
+2022-05-23 14:47:14,303 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:14,303 DEBUG   SenderThread:1251 [sender.py:send():232] send: summary
+2022-05-23 14:47:14,322 INFO    SenderThread:1251 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 14:47:14,322 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: defer
+2022-05-23 14:47:14,324 INFO    SenderThread:1251 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-05-23 14:47:14,324 INFO    SenderThread:1251 [sender.py:transition_state():389] send defer: 5
+2022-05-23 14:47:14,342 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:14,343 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: defer
+2022-05-23 14:47:14,343 INFO    HandlerThread:1251 [handler.py:handle_request_defer():164] handle defer: 5
+2022-05-23 14:47:14,343 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: defer
+2022-05-23 14:47:14,343 INFO    SenderThread:1251 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-05-23 14:47:14,449 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:14,949 INFO    SenderThread:1251 [sender.py:transition_state():389] send defer: 6
+2022-05-23 14:47:14,949 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:14,949 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: defer
+2022-05-23 14:47:14,949 INFO    HandlerThread:1251 [handler.py:handle_request_defer():164] handle defer: 6
+2022-05-23 14:47:14,949 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: defer
+2022-05-23 14:47:14,949 INFO    SenderThread:1251 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-05-23 14:47:14,949 INFO    SenderThread:1251 [dir_watcher.py:finish():279] shutting down directory watcher
+2022-05-23 14:47:14,986 INFO    Thread-7  :1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:47:14,987 INFO    SenderThread:1251 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/config.yaml
+2022-05-23 14:47:14,987 INFO    SenderThread:1251 [dir_watcher.py:finish():309] scan: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files
+2022-05-23 14:47:14,987 INFO    SenderThread:1251 [dir_watcher.py:finish():323] scan save: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/requirements.txt requirements.txt
+2022-05-23 14:47:14,987 INFO    SenderThread:1251 [dir_watcher.py:finish():323] scan save: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log output.log
+2022-05-23 14:47:14,987 INFO    SenderThread:1251 [dir_watcher.py:finish():323] scan save: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/config.yaml config.yaml
+2022-05-23 14:47:14,987 INFO    SenderThread:1251 [dir_watcher.py:finish():323] scan save: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json wandb-summary.json
+2022-05-23 14:47:14,987 INFO    SenderThread:1251 [dir_watcher.py:finish():323] scan save: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/conda-environment.yaml conda-environment.yaml
+2022-05-23 14:47:14,987 INFO    SenderThread:1251 [dir_watcher.py:finish():323] scan save: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-metadata.json wandb-metadata.json
+2022-05-23 14:47:14,990 INFO    SenderThread:1251 [dir_watcher.py:finish():323] scan save: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/media/plotly/chart_100_d7c84dff82fb106cd068.plotly.json media/plotly/chart_100_d7c84dff82fb106cd068.plotly.json
+2022-05-23 14:47:14,992 INFO    SenderThread:1251 [sender.py:transition_state():389] send defer: 7
+2022-05-23 14:47:14,993 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: defer
+2022-05-23 14:47:15,011 INFO    HandlerThread:1251 [handler.py:handle_request_defer():164] handle defer: 7
+2022-05-23 14:47:15,011 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: defer
+2022-05-23 14:47:15,011 INFO    SenderThread:1251 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-05-23 14:47:15,011 INFO    SenderThread:1251 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-23 14:47:15,055 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:15,055 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:15,161 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:15,172 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:15,278 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:15,279 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:15,422 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:15,422 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:15,523 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:15,530 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:15,631 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:15,644 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:15,750 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:15,758 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:15,864 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:15,865 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:15,966 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:15,979 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:15,980 INFO    Thread-16 :1251 [upload_job.py:push():137] Uploaded file /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/wandb-summary.json
+2022-05-23 14:47:16,013 INFO    Thread-15 :1251 [upload_job.py:push():137] Uploaded file /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/config.yaml
+2022-05-23 14:47:16,102 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:16,111 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:16,218 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:16,225 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:16,352 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:16,364 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:16,469 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:16,480 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:16,590 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:16,607 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:16,732 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:16,739 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:16,844 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:16,854 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:16,956 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:16,969 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:17,090 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:17,095 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:17,235 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:17,247 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:17,353 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:17,360 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:17,461 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:17,472 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:17,576 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:17,591 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:17,730 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:17,745 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:17,879 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:17,892 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:18,031 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:18,045 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:18,179 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:18,192 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:18,332 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:18,357 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:18,468 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:18,474 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:18,617 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:18,624 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:18,732 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:18,737 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:18,889 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:18,903 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:19,027 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:19,027 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:19,133 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:19,143 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:19,282 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:19,294 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:19,433 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:19,447 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:19,584 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:19,585 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:19,723 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:19,731 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:19,835 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:19,846 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:19,977 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:19,979 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:20,136 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:20,144 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:20,286 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:20,295 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:20,445 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:20,449 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:20,528 ERROR   Thread-14 :1251 [internal_api.py:upload_file():1639] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/dylanli/Option-xgb-project/2c0nme2i/output.log?Expires=1653374835&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=tTF78QFLM7upoIsJq1%2FAjouabsDWXxyffd4PmeN6ueT%2BNb6x3hpeFyCmxZl8YPynla6I76bxHKMB0n2v64vjCbp%2Bz3PGTs48zU3VYWGW1%2BGtp03XicHPHoqCkvOElBa9bXf79Xfwc7M0doeuwJ6m3qKq5PB4odBG6GPaRhsFh5EZLAts0%2BUhRIq3Vos6cdhBUzqdDyuy6MhIBtuTLRJlr0YRe%2BIyzVFqBJY0Azbb5ThB%2F9J0K0V1XBrJkOBQv2%2BMwAYgUke%2BEcS3g7qp%2BbIoggPNC53tNEFNgPIef9EZ7hrLCPpH04Li99y5QDUBSsV0Hs9poojpuG8lKqoDyDmZug%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/dylanli/Option-xgb-project/2c0nme2i/output.log?Expires=1653374835&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=tTF78QFLM7upoIsJq1%2FAjouabsDWXxyffd4PmeN6ueT%2BNb6x3hpeFyCmxZl8YPynla6I76bxHKMB0n2v64vjCbp%2Bz3PGTs48zU3VYWGW1%2BGtp03XicHPHoqCkvOElBa9bXf79Xfwc7M0doeuwJ6m3qKq5PB4odBG6GPaRhsFh5EZLAts0%2BUhRIq3Vos6cdhBUzqdDyuy6MhIBtuTLRJlr0YRe%2BIyzVFqBJY0Azbb5ThB%2F9J0K0V1XBrJkOBQv2%2BMwAYgUke%2BEcS3g7qp%2BbIoggPNC53tNEFNgPIef9EZ7hrLCPpH04Li99y5QDUBSsV0Hs9poojpuG8lKqoDyDmZug%3D%3D (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2022-05-23 14:47:20,529 ERROR   Thread-13 :1251 [internal_api.py:upload_file():1639] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/dylanli/Option-xgb-project/2c0nme2i/requirements.txt?Expires=1653374835&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=XKQBnWFniIE2lyZKQy5gzsXfbXYUp7XF0oeW%2Bc1PE%2BoywddOTaTryUn4jweGX2770Oo9K3AWD3cgviIQd8DSNol%2FM67wznzI4R34xf6IsP%2BGaXQCKjt9lBp0VpL24f%2FZQgMU%2FbmBlplWthbgjhzFja7WBeWlnIGMRf82RV01qC%2FDxCGFBrSYSBoaX4NMh12nYzv08o2m2qdq3WkBoL6dIxqnlXpH0vMHEISy%2BIy73jIYWFW8kuseMqV9YRIfaSI1XufC72un8fkFa9SFekDAhp6A6hTBOJSk3DahSd2Qj0t82g3Vloex5IxMdv5GL34MGX6cNyTi8QYW0GiKC0ASzQ%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/dylanli/Option-xgb-project/2c0nme2i/requirements.txt?Expires=1653374835&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=XKQBnWFniIE2lyZKQy5gzsXfbXYUp7XF0oeW%2Bc1PE%2BoywddOTaTryUn4jweGX2770Oo9K3AWD3cgviIQd8DSNol%2FM67wznzI4R34xf6IsP%2BGaXQCKjt9lBp0VpL24f%2FZQgMU%2FbmBlplWthbgjhzFja7WBeWlnIGMRf82RV01qC%2FDxCGFBrSYSBoaX4NMh12nYzv08o2m2qdq3WkBoL6dIxqnlXpH0vMHEISy%2BIy73jIYWFW8kuseMqV9YRIfaSI1XufC72un8fkFa9SFekDAhp6A6hTBOJSk3DahSd2Qj0t82g3Vloex5IxMdv5GL34MGX6cNyTi8QYW0GiKC0ASzQ%3D%3D (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2022-05-23 14:47:20,542 ERROR   Thread-14 :1251 [internal_api.py:upload_file():1641] upload_file request headers: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '3682'}
+2022-05-23 14:47:20,542 ERROR   Thread-13 :1251 [internal_api.py:upload_file():1641] upload_file request headers: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '5127'}
+2022-05-23 14:47:20,542 ERROR   Thread-14 :1251 [internal_api.py:upload_file():1643] upload_file response body: 
+2022-05-23 14:47:20,542 ERROR   Thread-13 :1251 [internal_api.py:upload_file():1643] upload_file response body: 
+2022-05-23 14:47:20,572 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:20,580 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:20,701 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:20,713 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:20,852 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:20,881 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:21,008 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:21,028 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:21,164 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:21,176 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:21,297 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:21,314 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:21,439 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:21,449 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:21,555 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:21,565 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:21,694 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:21,698 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:21,838 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:21,848 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:21,969 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:21,980 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:22,087 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:22,097 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:22,201 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:22,206 INFO    Thread-14 :1251 [upload_job.py:push():137] Uploaded file /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/output.log
+2022-05-23 14:47:22,226 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:22,308 INFO    Thread-13 :1251 [upload_job.py:push():137] Uploaded file /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/requirements.txt
+2022-05-23 14:47:22,337 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:22,367 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:22,475 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:22,480 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:22,603 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:22,611 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:22,718 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:22,732 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:22,838 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:22,851 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:22,957 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:22,966 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:23,070 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:23,081 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:23,185 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:23,213 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:23,337 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:23,345 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:23,451 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:23,458 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:23,564 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:23,573 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:23,679 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:23,687 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:23,810 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:23,816 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:23,945 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:23,952 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:24,077 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:24,086 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:24,207 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:24,224 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:24,334 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:24,335 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:24,460 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:24,472 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:24,593 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:24,605 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:24,731 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:24,735 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:24,866 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:24,875 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:24,997 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:25,014 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:25,137 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:25,137 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:25,239 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:25,263 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:25,384 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:25,385 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:25,511 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:25,532 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:25,680 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:25,698 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:25,825 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:25,843 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:25,964 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:25,974 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:26,100 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:26,114 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:26,238 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:26,244 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:26,373 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:26,382 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:26,488 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:26,490 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:26,613 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:26,616 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:26,722 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:26,740 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:26,845 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:26,856 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:26,981 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:26,986 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:27,117 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:27,117 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:27,223 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:27,223 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:27,333 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:27,358 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:27,497 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:27,514 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:27,633 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:27,637 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:27,748 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:27,749 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:27,897 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:27,902 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:28,008 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:28,031 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:28,154 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:28,174 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:28,301 ERROR   Thread-17 :1251 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _prepare_proxy
+    conn.connect()
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1131)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2022-05-23 14:47:28,306 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:28,337 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:28,434 ERROR   Thread-12 :1251 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _prepare_proxy
+    conn.connect()
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1131)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2022-05-23 14:47:28,446 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:28,466 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:28,588 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:28,589 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:28,691 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:28,704 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:28,849 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:28,868 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:28,994 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:29,011 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:29,115 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:29,123 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:29,247 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:29,265 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:29,391 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:29,396 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:29,524 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:29,539 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:29,664 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:29,677 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:29,783 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:29,797 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:29,902 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:29,903 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:30,009 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:30,012 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:30,118 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:30,118 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:30,224 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:30,240 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:30,346 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:30,360 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:30,462 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:30,475 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:30,577 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:30,577 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:30,683 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:30,683 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:30,785 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:30,786 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:30,887 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:30,899 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:31,002 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:31,015 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:31,120 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:31,122 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:31,228 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:31,229 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:31,331 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:31,333 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:31,439 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:31,440 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:31,561 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:31,562 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:31,603 INFO    Thread-12 :1251 [upload_job.py:push():137] Uploaded file /var/folders/9l/qzgwttq17ps8lhfhrtgpdkx00000gn/T/tmpchsptsxwwandb/2dhcid2a-media/plotly/chart_100_d7c84dff82fb106cd068.plotly.json
+2022-05-23 14:47:31,633 INFO    Thread-17 :1251 [upload_job.py:push():137] Uploaded file /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/files/conda-environment.yaml
+2022-05-23 14:47:31,668 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:31,686 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:31,791 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:31,791 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:31,849 INFO    Thread-6  :1251 [sender.py:transition_state():389] send defer: 8
+2022-05-23 14:47:31,852 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: defer
+2022-05-23 14:47:31,852 INFO    HandlerThread:1251 [handler.py:handle_request_defer():164] handle defer: 8
+2022-05-23 14:47:31,852 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: defer
+2022-05-23 14:47:31,852 INFO    SenderThread:1251 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-05-23 14:47:31,897 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:32,102 INFO    SenderThread:1251 [sender.py:transition_state():389] send defer: 9
+2022-05-23 14:47:32,116 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:32,117 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: defer
+2022-05-23 14:47:32,117 INFO    HandlerThread:1251 [handler.py:handle_request_defer():164] handle defer: 9
+2022-05-23 14:47:32,117 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: defer
+2022-05-23 14:47:32,117 INFO    SenderThread:1251 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-05-23 14:47:32,117 INFO    SenderThread:1251 [sender.py:transition_state():389] send defer: 10
+2022-05-23 14:47:32,117 DEBUG   SenderThread:1251 [sender.py:send():232] send: final
+2022-05-23 14:47:32,117 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: defer
+2022-05-23 14:47:32,135 INFO    HandlerThread:1251 [handler.py:handle_request_defer():164] handle defer: 10
+2022-05-23 14:47:32,135 DEBUG   SenderThread:1251 [sender.py:send():232] send: footer
+2022-05-23 14:47:32,135 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: defer
+2022-05-23 14:47:32,135 INFO    SenderThread:1251 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-05-23 14:47:32,222 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-23 14:47:32,232 DEBUG   SenderThread:1251 [sender.py:send_request():246] send_request: poll_exit
+2022-05-23 14:47:32,232 INFO    SenderThread:1251 [file_pusher.py:join():150] waiting for file pusher
+2022-05-23 14:47:34,482 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: sampled_history
+2022-05-23 14:47:34,490 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: get_summary
+2022-05-23 14:47:34,491 DEBUG   HandlerThread:1251 [handler.py:handle_request():141] handle_request: shutdown
+2022-05-23 14:47:34,491 INFO    HandlerThread:1251 [handler.py:finish():806] shutting down handler
+2022-05-23 14:47:35,132 INFO    WriterThread:1251 [datastore.py:close():279] close: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_144620-2c0nme2i/run-2c0nme2i.wandb
+2022-05-23 14:47:35,370 INFO    SenderThread:1251 [sender.py:finish():1106] shutting down sender
+2022-05-23 14:47:35,381 INFO    SenderThread:1251 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-23 14:47:35,381 INFO    SenderThread:1251 [file_pusher.py:join():150] waiting for file pusher
+2022-05-23 14:47:35,382 INFO    MainThread:1251 [internal.py:handle_exit():80] Internal process exited

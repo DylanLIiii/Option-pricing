@@ -1,0 +1,85 @@
+Will train until validation_0-rmse hasn't improved in 10 rounds.
+0	validation_0-rmse:1.11506
+1	validation_0-rmse:1.11215
+2	validation_0-rmse:1.10932
+3	validation_0-rmse:1.10659
+/var/folders/9l/qzgwttq17ps8lhfhrtgpdkx00000gn/T/ipykernel_78287/1921192065.py:27: UserWarning:
+wandb_callback will be deprecated in favor of WandbCallback. Please use WandbCallback for more features.
+/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/xgboost/training.py:17: UserWarning:
+Old style callback is deprecated.  See: https://xgboost.readthedocs.io/en/latest/python/callbacks.html
+4	validation_0-rmse:1.10391
+5	validation_0-rmse:1.10128
+6	validation_0-rmse:1.09861
+7	validation_0-rmse:1.09619
+8	validation_0-rmse:1.09380
+9	validation_0-rmse:1.09140
+10	validation_0-rmse:1.08924
+11	validation_0-rmse:1.08705
+12	validation_0-rmse:1.08484
+13	validation_0-rmse:1.08282
+14	validation_0-rmse:1.08083
+15	validation_0-rmse:1.07878
+16	validation_0-rmse:1.07690
+17	validation_0-rmse:1.07512
+18	validation_0-rmse:1.07328
+19	validation_0-rmse:1.07155
+20	validation_0-rmse:1.06989
+21	validation_0-rmse:1.06831
+22	validation_0-rmse:1.06669
+23	validation_0-rmse:1.06515
+24	validation_0-rmse:1.06369
+25	validation_0-rmse:1.06230
+26	validation_0-rmse:1.06091
+27	validation_0-rmse:1.05956
+28	validation_0-rmse:1.05828
+29	validation_0-rmse:1.05716
+30	validation_0-rmse:1.05601
+31	validation_0-rmse:1.05479
+32	validation_0-rmse:1.05367
+33	validation_0-rmse:1.05267
+34	validation_0-rmse:1.05167
+35	validation_0-rmse:1.05073
+36	validation_0-rmse:1.04978
+37	validation_0-rmse:1.04884
+38	validation_0-rmse:1.04801
+39	validation_0-rmse:1.04720
+40	validation_0-rmse:1.04645
+41	validation_0-rmse:1.04569
+42	validation_0-rmse:1.04495
+43	validation_0-rmse:1.04424
+44	validation_0-rmse:1.04359
+45	validation_0-rmse:1.04299
+46	validation_0-rmse:1.04244
+47	validation_0-rmse:1.04198
+48	validation_0-rmse:1.04145
+49	validation_0-rmse:1.04104
+50	validation_0-rmse:1.04063
+51	validation_0-rmse:1.04028
+52	validation_0-rmse:1.03996
+53	validation_0-rmse:1.03966
+54	validation_0-rmse:1.03930
+55	validation_0-rmse:1.03904
+56	validation_0-rmse:1.03881
+57	validation_0-rmse:1.03857
+58	validation_0-rmse:1.03847
+59	validation_0-rmse:1.03831
+60	validation_0-rmse:1.03808
+61	validation_0-rmse:1.03801
+62	validation_0-rmse:1.03785
+63	validation_0-rmse:1.03782
+64	validation_0-rmse:1.03787
+65	validation_0-rmse:1.03784
+66	validation_0-rmse:1.03788
+67	validation_0-rmse:1.03795
+68	validation_0-rmse:1.03805
+69	validation_0-rmse:1.03796
+70	validation_0-rmse:1.03801
+71	validation_0-rmse:1.03817
+72	validation_0-rmse:1.03828
+Stopping. Best iteration:
+[63]	validation_0-rmse:1.03782
+====================1 model trained====================
+==================== fold_1 ====================
+rmse: 1.037858707978806
+/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/xgboost/core.py:105: UserWarning:
+ntree_limit is deprecated, use `iteration_range` or model slicing instead.

@@ -1,0 +1,642 @@
+2022-05-23 15:26:13,533 INFO    MainThread:21772 [internal.py:wandb_internal():90] W&B internal server running at pid: 21772, started at: 2022-05-23 15:26:13.533654
+2022-05-23 15:26:13,535 INFO    WriterThread:21772 [datastore.py:open_for_write():75] open: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/run-2aylmt7g.wandb
+2022-05-23 15:26:13,536 DEBUG   SenderThread:21772 [sender.py:send():232] send: header
+2022-05-23 15:26:13,554 DEBUG   SenderThread:21772 [sender.py:send():232] send: run
+2022-05-23 15:26:14,217 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: check_version
+2022-05-23 15:26:14,237 INFO    SenderThread:21772 [dir_watcher.py:__init__():166] watching files in: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files
+2022-05-23 15:26:14,238 INFO    SenderThread:21772 [sender.py:_start_run_threads():811] run started: 2aylmt7g with start time 1653290772
+2022-05-23 15:26:14,238 DEBUG   SenderThread:21772 [sender.py:send():232] send: summary
+2022-05-23 15:26:14,238 INFO    SenderThread:21772 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 15:26:14,256 DEBUG   SenderThread:21772 [sender.py:send_request():246] send_request: check_version
+2022-05-23 15:26:14,563 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: run_start
+2022-05-23 15:26:15,264 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/wandb-summary.json
+2022-05-23 15:26:16,241 DEBUG   HandlerThread:21772 [meta.py:__init__():35] meta init
+2022-05-23 15:26:16,248 DEBUG   HandlerThread:21772 [meta.py:__init__():49] meta init done
+2022-05-23 15:26:16,266 DEBUG   HandlerThread:21772 [meta.py:probe():209] probe
+2022-05-23 15:26:16,267 DEBUG   HandlerThread:21772 [meta.py:_setup_git():199] setup git
+2022-05-23 15:26:16,295 DEBUG   HandlerThread:21772 [meta.py:_setup_git():206] setup git done
+2022-05-23 15:26:16,310 DEBUG   HandlerThread:21772 [meta.py:_save_pip():53] save pip
+2022-05-23 15:26:16,311 DEBUG   HandlerThread:21772 [meta.py:_save_pip():67] save pip done
+2022-05-23 15:26:16,311 DEBUG   HandlerThread:21772 [meta.py:_save_conda():74] save conda
+2022-05-23 15:26:17,277 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/requirements.txt
+2022-05-23 15:26:17,289 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/conda-environment.yaml
+2022-05-23 15:26:18,691 DEBUG   HandlerThread:21772 [meta.py:_save_conda():84] save conda done
+2022-05-23 15:26:18,692 DEBUG   HandlerThread:21772 [meta.py:probe():247] probe done
+2022-05-23 15:26:18,694 DEBUG   SenderThread:21772 [sender.py:send():232] send: telemetry
+2022-05-23 15:26:18,700 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 15:26:18,711 DEBUG   SenderThread:21772 [sender.py:send():232] send: files
+2022-05-23 15:26:18,711 INFO    SenderThread:21772 [sender.py:_save_file():946] saving file wandb-metadata.json with policy now
+2022-05-23 15:26:18,711 DEBUG   SenderThread:21772 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 15:26:19,280 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/conda-environment.yaml
+2022-05-23 15:26:19,287 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/wandb-metadata.json
+2022-05-23 15:26:19,288 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:26:19,621 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: get_summary
+2022-05-23 15:26:21,289 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:26:23,587 INFO    Thread-11 :21772 [upload_job.py:push():137] Uploaded file /var/folders/9l/qzgwttq17ps8lhfhrtgpdkx00000gn/T/tmp6uvk4j2owandb/3nywylb9-wandb-metadata.json
+2022-05-23 15:26:24,305 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/media/graph/graph_summary_97b584c235a321658292.graph.json
+2022-05-23 15:26:24,321 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/media
+2022-05-23 15:26:24,321 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/media/graph
+2022-05-23 15:26:25,307 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:26:27,312 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:26:27,470 DEBUG   SenderThread:21772 [sender.py:send():232] send: telemetry
+2022-05-23 15:26:27,484 DEBUG   SenderThread:21772 [sender.py:send():232] send: telemetry
+2022-05-23 15:26:27,485 DEBUG   SenderThread:21772 [sender.py:send():232] send: telemetry
+2022-05-23 15:26:27,485 DEBUG   SenderThread:21772 [sender.py:send():232] send: files
+2022-05-23 15:26:27,485 INFO    SenderThread:21772 [sender.py:_save_file():946] saving file model-best.h5 with policy live
+2022-05-23 15:26:27,485 DEBUG   SenderThread:21772 [sender.py:send():232] send: files
+2022-05-23 15:26:27,485 INFO    SenderThread:21772 [sender.py:_save_file():946] saving file media/graph/graph_summary_97b584c235a321658292.graph.json with policy now
+2022-05-23 15:26:27,486 DEBUG   SenderThread:21772 [sender.py:send():232] send: summary
+2022-05-23 15:26:27,504 INFO    SenderThread:21772 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 15:26:28,315 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/wandb-summary.json
+2022-05-23 15:26:29,320 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:26:31,325 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:26:31,873 WARNING MainThread:21772 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-05-23 15:26:32,661 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:32,661 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:26:33,332 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:26:33,453 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:26:33,453 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:26:33,457 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:33,473 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:26:34,832 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:26:34,839 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:26:34,839 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:34,839 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:26:35,335 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:26:36,333 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:26:36,345 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:26:36,333 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:26:36,346 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:26:36,350 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:36,365 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:26:37,345 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:26:37,776 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:26:37,777 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:26:37,783 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:26:37,785 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:37,785 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:26:38,078 ERROR   Thread-12 :21772 [internal_api.py:upload_file():1639] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/media/graph/graph_summary_97b584c235a321658292.graph.json?Expires=1653377187&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=iqsDq9r4cbCt1QA3Z944IRGhpvD7NAmrZsXUfb%2Bto55E7vObVZGU5p77Leq0z50ToulBxA%2BJrUcmHK2D6iSDsA8U1zme2c%2BTBHOLJwgEybR7QTlyEs6AWjYX9S3gnsmRXtwbiOqRKppTYyWzvRMwTL3T5AQxCVwYHjBOz%2F7tX2kbfXMthOsPZmjMq1HHux1JrjUttQ%2BHdhRbys%2FYNxATjih0jqkYjiOsCFb%2Fsw3k1A82htdIhZQ5rFIXfYmnsQuUHf3jhNaqD63OqTNviOxivALxYTAu8rrakzUmpBiz0yoDEYJi5HROJ%2FrLJnxNuz%2F5Btvq3AANSKtGq65DinSZxg%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/media/graph/graph_summary_97b584c235a321658292.graph.json?Expires=1653377187&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=iqsDq9r4cbCt1QA3Z944IRGhpvD7NAmrZsXUfb%2Bto55E7vObVZGU5p77Leq0z50ToulBxA%2BJrUcmHK2D6iSDsA8U1zme2c%2BTBHOLJwgEybR7QTlyEs6AWjYX9S3gnsmRXtwbiOqRKppTYyWzvRMwTL3T5AQxCVwYHjBOz%2F7tX2kbfXMthOsPZmjMq1HHux1JrjUttQ%2BHdhRbys%2FYNxATjih0jqkYjiOsCFb%2Fsw3k1A82htdIhZQ5rFIXfYmnsQuUHf3jhNaqD63OqTNviOxivALxYTAu8rrakzUmpBiz0yoDEYJi5HROJ%2FrLJnxNuz%2F5Btvq3AANSKtGq65DinSZxg%3D%3D (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response')))
+2022-05-23 15:26:38,083 ERROR   Thread-12 :21772 [internal_api.py:upload_file():1641] upload_file request headers: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '2080'}
+2022-05-23 15:26:38,083 ERROR   Thread-12 :21772 [internal_api.py:upload_file():1643] upload_file response body: 
+2022-05-23 15:26:39,273 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:26:39,280 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:26:39,284 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:39,301 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:26:39,351 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:26:40,720 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:26:40,720 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:26:40,721 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:26:40,725 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:40,742 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:26:41,358 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:26:42,143 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:26:42,160 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:26:42,164 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:42,182 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:26:43,375 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:26:43,908 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:26:43,914 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:26:43,915 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:43,918 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:26:44,360 ERROR   Thread-12 :21772 [internal_api.py:upload_file():1639] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/media/graph/graph_summary_97b584c235a321658292.graph.json?Expires=1653377187&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=iqsDq9r4cbCt1QA3Z944IRGhpvD7NAmrZsXUfb%2Bto55E7vObVZGU5p77Leq0z50ToulBxA%2BJrUcmHK2D6iSDsA8U1zme2c%2BTBHOLJwgEybR7QTlyEs6AWjYX9S3gnsmRXtwbiOqRKppTYyWzvRMwTL3T5AQxCVwYHjBOz%2F7tX2kbfXMthOsPZmjMq1HHux1JrjUttQ%2BHdhRbys%2FYNxATjih0jqkYjiOsCFb%2Fsw3k1A82htdIhZQ5rFIXfYmnsQuUHf3jhNaqD63OqTNviOxivALxYTAu8rrakzUmpBiz0yoDEYJi5HROJ%2FrLJnxNuz%2F5Btvq3AANSKtGq65DinSZxg%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/media/graph/graph_summary_97b584c235a321658292.graph.json?Expires=1653377187&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=iqsDq9r4cbCt1QA3Z944IRGhpvD7NAmrZsXUfb%2Bto55E7vObVZGU5p77Leq0z50ToulBxA%2BJrUcmHK2D6iSDsA8U1zme2c%2BTBHOLJwgEybR7QTlyEs6AWjYX9S3gnsmRXtwbiOqRKppTYyWzvRMwTL3T5AQxCVwYHjBOz%2F7tX2kbfXMthOsPZmjMq1HHux1JrjUttQ%2BHdhRbys%2FYNxATjih0jqkYjiOsCFb%2Fsw3k1A82htdIhZQ5rFIXfYmnsQuUHf3jhNaqD63OqTNviOxivALxYTAu8rrakzUmpBiz0yoDEYJi5HROJ%2FrLJnxNuz%2F5Btvq3AANSKtGq65DinSZxg%3D%3D (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2022-05-23 15:26:44,376 ERROR   Thread-12 :21772 [internal_api.py:upload_file():1641] upload_file request headers: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '2080'}
+2022-05-23 15:26:44,393 ERROR   Thread-12 :21772 [internal_api.py:upload_file():1643] upload_file response body: 
+2022-05-23 15:26:45,897 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 15:26:45,901 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:26:45,901 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:26:45,905 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:45,920 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:26:47,302 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:26:47,305 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:26:47,309 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:47,325 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:26:48,687 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:26:48,691 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:26:48,691 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:48,691 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:26:49,399 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:26:50,038 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:26:50,047 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:26:50,048 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:50,051 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:26:50,358 DEBUG   SenderThread:21772 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 15:26:50,404 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/config.yaml
+2022-05-23 15:26:50,760 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:26:50,767 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:26:50,767 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:26:50,767 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:26:50,767 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:26:51,410 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:26:51,500 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:26:51,501 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:26:51,517 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:26:51,517 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:26:51,523 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:26:51,524 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:51,538 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:26:52,903 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:26:52,913 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:26:52,913 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:52,914 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:26:53,419 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:26:54,271 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:26:54,271 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:26:54,285 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:26:54,285 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:54,285 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:26:55,428 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:26:55,697 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:26:55,697 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:26:55,700 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:55,716 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:26:56,928 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:26:56,932 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:26:56,935 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:56,935 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:26:58,248 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:26:58,263 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:26:58,267 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:58,282 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:26:59,539 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:26:59,567 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:26:59,570 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:26:59,602 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:27:00,817 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:27:00,818 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:27:00,821 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:27:00,837 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:27:02,090 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:27:02,101 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:27:02,101 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:27:02,101 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:27:03,416 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:27:03,422 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:27:03,425 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:27:03,425 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:27:04,702 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:27:04,710 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:27:04,713 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:27:04,729 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:27:06,077 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:27:06,086 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:27:06,090 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:27:06,091 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:27:07,489 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:27:07,492 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:27:07,496 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:27:07,512 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:27:08,876 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:27:08,876 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:27:08,877 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:27:08,883 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:27:08,897 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:27:10,319 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 15:27:10,319 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:27:10,331 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:27:10,331 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:27:10,331 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:27:10,331 DEBUG   SenderThread:21772 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 15:27:11,201 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:27:11,203 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:27:11,204 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:27:11,204 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:27:11,204 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:27:11,204 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:27:11,204 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:27:11,204 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:27:11,204 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:27:18,780 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 15:27:18,794 DEBUG   SenderThread:21772 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 15:27:38,788 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 15:27:38,806 DEBUG   SenderThread:21772 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 15:27:54,233 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 15:27:54,234 DEBUG   SenderThread:21772 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 15:28:09,684 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 15:28:09,693 DEBUG   SenderThread:21772 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 15:28:25,191 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 15:28:25,196 DEBUG   SenderThread:21772 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 15:28:40,840 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 15:28:40,840 DEBUG   SenderThread:21772 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 15:28:56,253 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 15:28:56,269 DEBUG   SenderThread:21772 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 15:29:04,949 ERROR   Thread-12 :21772 [internal_api.py:upload_file():1639] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/media/graph/graph_summary_97b584c235a321658292.graph.json?Expires=1653377187&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=iqsDq9r4cbCt1QA3Z944IRGhpvD7NAmrZsXUfb%2Bto55E7vObVZGU5p77Leq0z50ToulBxA%2BJrUcmHK2D6iSDsA8U1zme2c%2BTBHOLJwgEybR7QTlyEs6AWjYX9S3gnsmRXtwbiOqRKppTYyWzvRMwTL3T5AQxCVwYHjBOz%2F7tX2kbfXMthOsPZmjMq1HHux1JrjUttQ%2BHdhRbys%2FYNxATjih0jqkYjiOsCFb%2Fsw3k1A82htdIhZQ5rFIXfYmnsQuUHf3jhNaqD63OqTNviOxivALxYTAu8rrakzUmpBiz0yoDEYJi5HROJ%2FrLJnxNuz%2F5Btvq3AANSKtGq65DinSZxg%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/media/graph/graph_summary_97b584c235a321658292.graph.json?Expires=1653377187&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=iqsDq9r4cbCt1QA3Z944IRGhpvD7NAmrZsXUfb%2Bto55E7vObVZGU5p77Leq0z50ToulBxA%2BJrUcmHK2D6iSDsA8U1zme2c%2BTBHOLJwgEybR7QTlyEs6AWjYX9S3gnsmRXtwbiOqRKppTYyWzvRMwTL3T5AQxCVwYHjBOz%2F7tX2kbfXMthOsPZmjMq1HHux1JrjUttQ%2BHdhRbys%2FYNxATjih0jqkYjiOsCFb%2Fsw3k1A82htdIhZQ5rFIXfYmnsQuUHf3jhNaqD63OqTNviOxivALxYTAu8rrakzUmpBiz0yoDEYJi5HROJ%2FrLJnxNuz%2F5Btvq3AANSKtGq65DinSZxg%3D%3D (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2022-05-23 15:29:04,949 ERROR   Thread-12 :21772 [internal_api.py:upload_file():1641] upload_file request headers: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '2080'}
+2022-05-23 15:29:04,950 ERROR   Thread-12 :21772 [internal_api.py:upload_file():1643] upload_file response body: 
+2022-05-23 15:29:04,950 ERROR   Thread-12 :21772 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _prepare_proxy
+    conn.connect()
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1131)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/media/graph/graph_summary_97b584c235a321658292.graph.json?Expires=1653377187&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=iqsDq9r4cbCt1QA3Z944IRGhpvD7NAmrZsXUfb%2Bto55E7vObVZGU5p77Leq0z50ToulBxA%2BJrUcmHK2D6iSDsA8U1zme2c%2BTBHOLJwgEybR7QTlyEs6AWjYX9S3gnsmRXtwbiOqRKppTYyWzvRMwTL3T5AQxCVwYHjBOz%2F7tX2kbfXMthOsPZmjMq1HHux1JrjUttQ%2BHdhRbys%2FYNxATjih0jqkYjiOsCFb%2Fsw3k1A82htdIhZQ5rFIXfYmnsQuUHf3jhNaqD63OqTNviOxivALxYTAu8rrakzUmpBiz0yoDEYJi5HROJ%2FrLJnxNuz%2F5Btvq3AANSKtGq65DinSZxg%3D%3D (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 1636, in upload_file
+    response = requests.put(url, data=progress, headers=extra_headers)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/api.py", line 132, in put
+    return request('put', url, data=data, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/media/graph/graph_summary_97b584c235a321658292.graph.json?Expires=1653377187&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=iqsDq9r4cbCt1QA3Z944IRGhpvD7NAmrZsXUfb%2Bto55E7vObVZGU5p77Leq0z50ToulBxA%2BJrUcmHK2D6iSDsA8U1zme2c%2BTBHOLJwgEybR7QTlyEs6AWjYX9S3gnsmRXtwbiOqRKppTYyWzvRMwTL3T5AQxCVwYHjBOz%2F7tX2kbfXMthOsPZmjMq1HHux1JrjUttQ%2BHdhRbys%2FYNxATjih0jqkYjiOsCFb%2Fsw3k1A82htdIhZQ5rFIXfYmnsQuUHf3jhNaqD63OqTNviOxivALxYTAu8rrakzUmpBiz0yoDEYJi5HROJ%2FrLJnxNuz%2F5Btvq3AANSKtGq65DinSZxg%3D%3D (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 1652, in upload_file
+    raise e.with_traceback(sys.exc_info()[2])
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 1636, in upload_file
+    response = requests.put(url, data=progress, headers=extra_headers)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/api.py", line 132, in put
+    return request('put', url, data=data, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+wandb.sdk.lib.retry.TransientError: None
+2022-05-23 15:29:05,503 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:29:05,503 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:29:05,503 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:29:05,503 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:29:05,947 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:29:07,116 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:29:07,116 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:29:07,117 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:29:07,117 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:29:07,959 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:29:08,532 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:29:08,537 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:29:08,542 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:29:08,559 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:29:09,925 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:29:09,943 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:29:09,946 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:29:09,963 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:29:09,965 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:29:11,400 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:29:11,405 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:29:11,409 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:29:11,427 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:29:11,973 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:29:12,856 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:29:12,859 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:29:12,862 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:29:12,878 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:29:13,985 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:29:14,149 ERROR   Thread-12 :21772 [internal_api.py:upload_file():1639] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/media/graph/graph_summary_97b584c235a321658292.graph.json?Expires=1653377187&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=iqsDq9r4cbCt1QA3Z944IRGhpvD7NAmrZsXUfb%2Bto55E7vObVZGU5p77Leq0z50ToulBxA%2BJrUcmHK2D6iSDsA8U1zme2c%2BTBHOLJwgEybR7QTlyEs6AWjYX9S3gnsmRXtwbiOqRKppTYyWzvRMwTL3T5AQxCVwYHjBOz%2F7tX2kbfXMthOsPZmjMq1HHux1JrjUttQ%2BHdhRbys%2FYNxATjih0jqkYjiOsCFb%2Fsw3k1A82htdIhZQ5rFIXfYmnsQuUHf3jhNaqD63OqTNviOxivALxYTAu8rrakzUmpBiz0yoDEYJi5HROJ%2FrLJnxNuz%2F5Btvq3AANSKtGq65DinSZxg%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/media/graph/graph_summary_97b584c235a321658292.graph.json?Expires=1653377187&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=iqsDq9r4cbCt1QA3Z944IRGhpvD7NAmrZsXUfb%2Bto55E7vObVZGU5p77Leq0z50ToulBxA%2BJrUcmHK2D6iSDsA8U1zme2c%2BTBHOLJwgEybR7QTlyEs6AWjYX9S3gnsmRXtwbiOqRKppTYyWzvRMwTL3T5AQxCVwYHjBOz%2F7tX2kbfXMthOsPZmjMq1HHux1JrjUttQ%2BHdhRbys%2FYNxATjih0jqkYjiOsCFb%2Fsw3k1A82htdIhZQ5rFIXfYmnsQuUHf3jhNaqD63OqTNviOxivALxYTAu8rrakzUmpBiz0yoDEYJi5HROJ%2FrLJnxNuz%2F5Btvq3AANSKtGq65DinSZxg%3D%3D (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2022-05-23 15:29:14,167 ERROR   Thread-12 :21772 [internal_api.py:upload_file():1641] upload_file request headers: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '2080'}
+2022-05-23 15:29:14,167 ERROR   Thread-12 :21772 [internal_api.py:upload_file():1643] upload_file response body: 
+2022-05-23 15:29:14,294 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:29:14,297 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:29:14,300 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:29:14,317 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:29:15,787 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:29:15,802 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:29:15,806 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:29:15,824 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:29:15,994 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:29:17,230 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:29:17,235 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:29:17,238 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:29:17,253 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:29:18,005 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:29:18,654 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:29:18,663 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:29:18,666 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:29:18,682 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:29:20,004 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:29:20,010 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:29:20,010 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:29:20,013 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:29:21,398 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:29:21,406 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:29:21,406 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:29:21,406 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:29:22,021 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:29:22,723 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:29:22,732 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:29:22,734 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:29:22,752 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:29:24,137 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 15:29:24,150 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:29:24,150 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:29:24,151 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:29:24,151 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:29:24,535 ERROR   SenderThread:21772 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _prepare_proxy
+    conn.connect()
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1114: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1114: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1114: The handshake operation timed out')))
+2022-05-23 15:29:25,530 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:29:25,536 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:29:25,536 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:29:25,536 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:29:26,037 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:29:26,861 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:29:26,867 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:29:26,869 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:29:26,869 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:29:29,175 ERROR   Thread-12 :21772 [internal_api.py:upload_file():1639] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/media/graph/graph_summary_97b584c235a321658292.graph.json?Expires=1653377187&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=iqsDq9r4cbCt1QA3Z944IRGhpvD7NAmrZsXUfb%2Bto55E7vObVZGU5p77Leq0z50ToulBxA%2BJrUcmHK2D6iSDsA8U1zme2c%2BTBHOLJwgEybR7QTlyEs6AWjYX9S3gnsmRXtwbiOqRKppTYyWzvRMwTL3T5AQxCVwYHjBOz%2F7tX2kbfXMthOsPZmjMq1HHux1JrjUttQ%2BHdhRbys%2FYNxATjih0jqkYjiOsCFb%2Fsw3k1A82htdIhZQ5rFIXfYmnsQuUHf3jhNaqD63OqTNviOxivALxYTAu8rrakzUmpBiz0yoDEYJi5HROJ%2FrLJnxNuz%2F5Btvq3AANSKtGq65DinSZxg%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/media/graph/graph_summary_97b584c235a321658292.graph.json?Expires=1653377187&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=iqsDq9r4cbCt1QA3Z944IRGhpvD7NAmrZsXUfb%2Bto55E7vObVZGU5p77Leq0z50ToulBxA%2BJrUcmHK2D6iSDsA8U1zme2c%2BTBHOLJwgEybR7QTlyEs6AWjYX9S3gnsmRXtwbiOqRKppTYyWzvRMwTL3T5AQxCVwYHjBOz%2F7tX2kbfXMthOsPZmjMq1HHux1JrjUttQ%2BHdhRbys%2FYNxATjih0jqkYjiOsCFb%2Fsw3k1A82htdIhZQ5rFIXfYmnsQuUHf3jhNaqD63OqTNviOxivALxYTAu8rrakzUmpBiz0yoDEYJi5HROJ%2FrLJnxNuz%2F5Btvq3AANSKtGq65DinSZxg%3D%3D (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2022-05-23 15:29:29,188 ERROR   Thread-12 :21772 [internal_api.py:upload_file():1641] upload_file request headers: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '2080'}
+2022-05-23 15:29:29,188 ERROR   Thread-12 :21772 [internal_api.py:upload_file():1643] upload_file response body: 
+2022-05-23 15:29:29,393 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:29:29,403 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:29:29,404 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:29:29,404 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:29:29,404 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:29:29,404 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:29:29,404 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:29:29,405 DEBUG   SenderThread:21772 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 15:29:36,026 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:29:36,041 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:29:36,058 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:29:36,059 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:29:36,060 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:29:36,060 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:29:36,060 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:29:36,061 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:29:36,061 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:29:36,299 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 15:29:36,318 DEBUG   SenderThread:21772 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 15:29:48,493 INFO    Thread-12 :21772 [upload_job.py:push():137] Uploaded file /var/folders/9l/qzgwttq17ps8lhfhrtgpdkx00000gn/T/tmp6uvk4j2owandb/1zfvj9ih-media/graph/graph_summary_97b584c235a321658292.graph.json
+2022-05-23 15:29:51,722 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 15:29:51,732 DEBUG   SenderThread:21772 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 15:30:05,225 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:30:05,242 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:30:05,246 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:30:05,262 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:30:06,203 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:30:06,623 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:30:06,635 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:30:06,636 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:30:06,636 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:30:07,933 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:30:07,939 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:30:07,941 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:30:07,941 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:30:08,208 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:30:09,274 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:30:09,275 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: resume
+2022-05-23 15:30:09,285 INFO    HandlerThread:21772 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-23 15:30:09,288 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 15:30:09,289 DEBUG   SenderThread:21772 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 15:30:09,692 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:30:09,697 DEBUG   SenderThread:21772 [sender.py:send():232] send: stats
+2022-05-23 15:30:10,215 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:30:24,702 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-23 15:30:24,719 DEBUG   SenderThread:21772 [sender.py:send_request():246] send_request: stop_status
+2022-05-23 15:30:34,333 INFO    Thread-7  :21772 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:30:36,479 WARNING MainThread:21772 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2022-05-23 15:30:36,497 ERROR   MainThread:21772 [internal.py:wandb_internal():156] Internal process interrupted.
+2022-05-23 15:30:36,497 DEBUG   HandlerThread:21772 [handler.py:handle_request():141] handle_request: pause
+2022-05-23 15:30:36,497 INFO    HandlerThread:21772 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-23 15:30:37,133 INFO    SenderThread:21772 [sender.py:finish():1106] shutting down sender
+2022-05-23 15:30:37,134 INFO    SenderThread:21772 [dir_watcher.py:finish():279] shutting down directory watcher
+2022-05-23 15:30:37,273 INFO    HandlerThread:21772 [handler.py:finish():806] shutting down handler
+2022-05-23 15:30:37,347 INFO    SenderThread:21772 [dir_watcher.py:finish():309] scan: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files
+2022-05-23 15:30:37,349 INFO    SenderThread:21772 [dir_watcher.py:finish():323] scan save: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/requirements.txt requirements.txt
+2022-05-23 15:30:37,349 INFO    SenderThread:21772 [dir_watcher.py:finish():323] scan save: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log output.log
+2022-05-23 15:30:37,349 INFO    SenderThread:21772 [dir_watcher.py:finish():323] scan save: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/config.yaml config.yaml
+2022-05-23 15:30:37,349 INFO    SenderThread:21772 [dir_watcher.py:finish():323] scan save: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/wandb-summary.json wandb-summary.json
+2022-05-23 15:30:37,349 INFO    SenderThread:21772 [dir_watcher.py:finish():323] scan save: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/conda-environment.yaml conda-environment.yaml
+2022-05-23 15:30:37,349 INFO    SenderThread:21772 [dir_watcher.py:finish():323] scan save: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/wandb-metadata.json wandb-metadata.json
+2022-05-23 15:30:37,356 INFO    SenderThread:21772 [dir_watcher.py:finish():323] scan save: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/media/graph/graph_summary_97b584c235a321658292.graph.json media/graph/graph_summary_97b584c235a321658292.graph.json
+2022-05-23 15:30:37,370 INFO    SenderThread:21772 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-23 15:30:37,371 INFO    SenderThread:21772 [file_pusher.py:join():150] waiting for file pusher
+2022-05-23 15:30:37,371 INFO    WriterThread:21772 [datastore.py:close():279] close: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/run-2aylmt7g.wandb
+2022-05-23 15:30:38,363 INFO    Thread-61 :21772 [upload_job.py:push():137] Uploaded file /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/config.yaml
+2022-05-23 15:30:42,866 ERROR   Thread-60 :21772 [internal_api.py:upload_file():1639] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/output.log?Expires=1653377437&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=rQ2hDzJtYEnnn%2BSDbiwhPg7fq5rjHt3VDd%2Fnp1UqHarAYB1pngN0u9X%2FIicbH2CVvOzy1xHt%2Bbp4ekeIZq%2B2hv%2FJAFIKzxn7ZeQNkQy7xhXWuB2wwczMGH8eq4OL39699iyQbAZw0J%2Bp2jClqdhYqEtDTnBb7TFlEP1wXokJoaH1RsN1G0G1oKJovqsr1U54psHIbv5eF%2FXR%2Bm3zMRDrjX31M4r35BOYASLN6xkMSW5pm5yXSuiFq9czBziDL%2FBfDcfECFQ2N7D8JLJJpfzLNZE7PsuRsiTTz3ufG9%2Flkd%2BIW3z66d1Cdrr1mAjYjYqDvJJtW982yxO4AOxzQT%2Fj2w%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/output.log?Expires=1653377437&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=rQ2hDzJtYEnnn%2BSDbiwhPg7fq5rjHt3VDd%2Fnp1UqHarAYB1pngN0u9X%2FIicbH2CVvOzy1xHt%2Bbp4ekeIZq%2B2hv%2FJAFIKzxn7ZeQNkQy7xhXWuB2wwczMGH8eq4OL39699iyQbAZw0J%2Bp2jClqdhYqEtDTnBb7TFlEP1wXokJoaH1RsN1G0G1oKJovqsr1U54psHIbv5eF%2FXR%2Bm3zMRDrjX31M4r35BOYASLN6xkMSW5pm5yXSuiFq9czBziDL%2FBfDcfECFQ2N7D8JLJJpfzLNZE7PsuRsiTTz3ufG9%2Flkd%2BIW3z66d1Cdrr1mAjYjYqDvJJtW982yxO4AOxzQT%2Fj2w%3D%3D (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2022-05-23 15:30:42,874 ERROR   Thread-60 :21772 [internal_api.py:upload_file():1641] upload_file request headers: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '20790'}
+2022-05-23 15:30:42,874 ERROR   Thread-60 :21772 [internal_api.py:upload_file():1643] upload_file response body: 
+2022-05-23 15:30:44,496 INFO    Thread-62 :21772 [upload_job.py:push():137] Uploaded file /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/wandb-summary.json
+2022-05-23 15:30:44,590 INFO    Thread-60 :21772 [upload_job.py:push():137] Uploaded file /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/output.log
+2022-05-23 15:31:00,768 ERROR   Thread-59 :21772 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+2022-05-23 15:33:40,125 ERROR   Thread-63 :21772 [internal_api.py:upload_file():1639] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/conda-environment.yaml?Expires=1653377437&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=STdH8JFNd4cR3vzsyX%2B%2BkjvLP0QOGrcuBu8aOMLGAr78pDrw9hF5vpBiIJy4vwVH0lL0PoRLbqgImAfRRpErFo6aJsfOIPqtivJeh74BtuFi07FlxP9bJopWZHHIQkIbde6prVNMAW5RjqtVnEoh4eXlqDTRr4VXUpjjAk%2B3mWNbRJ3NJ485qKrCR0uSYY25bXrP8XecBSJ8K1%2Bo05OoNVSM2se%2B1C3KiE3wM6WzBGYyuDudIjs0pt%2Fsknu0y7%2B6zInNAirOPcw81u1a0mWDC7Ut34b3G8%2BLNL%2BT39H1comtSKTYDj1ftkD8qMal5JMnx9px03vwnMnC7ZN3oAQvdg%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/conda-environment.yaml?Expires=1653377437&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=STdH8JFNd4cR3vzsyX%2B%2BkjvLP0QOGrcuBu8aOMLGAr78pDrw9hF5vpBiIJy4vwVH0lL0PoRLbqgImAfRRpErFo6aJsfOIPqtivJeh74BtuFi07FlxP9bJopWZHHIQkIbde6prVNMAW5RjqtVnEoh4eXlqDTRr4VXUpjjAk%2B3mWNbRJ3NJ485qKrCR0uSYY25bXrP8XecBSJ8K1%2Bo05OoNVSM2se%2B1C3KiE3wM6WzBGYyuDudIjs0pt%2Fsknu0y7%2B6zInNAirOPcw81u1a0mWDC7Ut34b3G8%2BLNL%2BT39H1comtSKTYDj1ftkD8qMal5JMnx9px03vwnMnC7ZN3oAQvdg%3D%3D (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2022-05-23 15:33:40,130 ERROR   Thread-63 :21772 [internal_api.py:upload_file():1641] upload_file request headers: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '10664'}
+2022-05-23 15:33:40,130 ERROR   Thread-63 :21772 [internal_api.py:upload_file():1643] upload_file response body: 
+2022-05-23 15:33:41,841 INFO    Thread-63 :21772 [upload_job.py:push():137] Uploaded file /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/conda-environment.yaml
+2022-05-23 15:34:01,374 ERROR   Thread-59 :21772 [internal_api.py:upload_file():1639] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/requirements.txt?Expires=1653377478&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=mt4J6eHEuD0VU6Xxe6AR9Y74jmPMyBo6VAZyNGkGRypmmDESNVIEQVCZEGya8BBufHk3mGQLUN4omS3IwVWXQgXM2tH3NOHlL6WR4%2BF13ZQrmMnW%2FIknMDM9s1sNPq7LIUHRfUIzzrq8jSiWtGAUepr%2BSIg0Vy8%2F4WEFGD98QMtdh7B4Zr75D9VJO3t7xgtBqP1ADD8%2BOSY2vH7mwAsT4uk4MkJbXg2XLmt0NPNOVeHBFDyLxukAzSFDFPTfcIvUFU8GvYe%2FISVsulWBQqknYyiKRCYNC0U0HhV33%2BcoKTSyUmRuupi0SFAOkA4LWotBJRdys%2F5vvSe%2BMrpvn9ekgw%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/requirements.txt?Expires=1653377478&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=mt4J6eHEuD0VU6Xxe6AR9Y74jmPMyBo6VAZyNGkGRypmmDESNVIEQVCZEGya8BBufHk3mGQLUN4omS3IwVWXQgXM2tH3NOHlL6WR4%2BF13ZQrmMnW%2FIknMDM9s1sNPq7LIUHRfUIzzrq8jSiWtGAUepr%2BSIg0Vy8%2F4WEFGD98QMtdh7B4Zr75D9VJO3t7xgtBqP1ADD8%2BOSY2vH7mwAsT4uk4MkJbXg2XLmt0NPNOVeHBFDyLxukAzSFDFPTfcIvUFU8GvYe%2FISVsulWBQqknYyiKRCYNC0U0HhV33%2BcoKTSyUmRuupi0SFAOkA4LWotBJRdys%2F5vvSe%2BMrpvn9ekgw%3D%3D (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2022-05-23 15:34:01,391 ERROR   Thread-59 :21772 [internal_api.py:upload_file():1641] upload_file request headers: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '5127'}
+2022-05-23 15:34:01,391 ERROR   Thread-59 :21772 [internal_api.py:upload_file():1643] upload_file response body: 
+2022-05-23 15:34:07,651 ERROR   Thread-59 :21772 [internal_api.py:upload_file():1639] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/requirements.txt?Expires=1653377478&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=mt4J6eHEuD0VU6Xxe6AR9Y74jmPMyBo6VAZyNGkGRypmmDESNVIEQVCZEGya8BBufHk3mGQLUN4omS3IwVWXQgXM2tH3NOHlL6WR4%2BF13ZQrmMnW%2FIknMDM9s1sNPq7LIUHRfUIzzrq8jSiWtGAUepr%2BSIg0Vy8%2F4WEFGD98QMtdh7B4Zr75D9VJO3t7xgtBqP1ADD8%2BOSY2vH7mwAsT4uk4MkJbXg2XLmt0NPNOVeHBFDyLxukAzSFDFPTfcIvUFU8GvYe%2FISVsulWBQqknYyiKRCYNC0U0HhV33%2BcoKTSyUmRuupi0SFAOkA4LWotBJRdys%2F5vvSe%2BMrpvn9ekgw%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/requirements.txt?Expires=1653377478&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=mt4J6eHEuD0VU6Xxe6AR9Y74jmPMyBo6VAZyNGkGRypmmDESNVIEQVCZEGya8BBufHk3mGQLUN4omS3IwVWXQgXM2tH3NOHlL6WR4%2BF13ZQrmMnW%2FIknMDM9s1sNPq7LIUHRfUIzzrq8jSiWtGAUepr%2BSIg0Vy8%2F4WEFGD98QMtdh7B4Zr75D9VJO3t7xgtBqP1ADD8%2BOSY2vH7mwAsT4uk4MkJbXg2XLmt0NPNOVeHBFDyLxukAzSFDFPTfcIvUFU8GvYe%2FISVsulWBQqknYyiKRCYNC0U0HhV33%2BcoKTSyUmRuupi0SFAOkA4LWotBJRdys%2F5vvSe%2BMrpvn9ekgw%3D%3D (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+2022-05-23 15:34:07,656 ERROR   Thread-59 :21772 [internal_api.py:upload_file():1641] upload_file request headers: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '5127'}
+2022-05-23 15:34:07,656 ERROR   Thread-59 :21772 [internal_api.py:upload_file():1643] upload_file response body: 
+2022-05-23 15:34:07,656 ERROR   Thread-59 :21772 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _prepare_proxy
+    conn.connect()
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1131)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/requirements.txt?Expires=1653377478&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=mt4J6eHEuD0VU6Xxe6AR9Y74jmPMyBo6VAZyNGkGRypmmDESNVIEQVCZEGya8BBufHk3mGQLUN4omS3IwVWXQgXM2tH3NOHlL6WR4%2BF13ZQrmMnW%2FIknMDM9s1sNPq7LIUHRfUIzzrq8jSiWtGAUepr%2BSIg0Vy8%2F4WEFGD98QMtdh7B4Zr75D9VJO3t7xgtBqP1ADD8%2BOSY2vH7mwAsT4uk4MkJbXg2XLmt0NPNOVeHBFDyLxukAzSFDFPTfcIvUFU8GvYe%2FISVsulWBQqknYyiKRCYNC0U0HhV33%2BcoKTSyUmRuupi0SFAOkA4LWotBJRdys%2F5vvSe%2BMrpvn9ekgw%3D%3D (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 1636, in upload_file
+    response = requests.put(url, data=progress, headers=extra_headers)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/api.py", line 132, in put
+    return request('put', url, data=data, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/dylanli/Option-xgb-project/2aylmt7g/requirements.txt?Expires=1653377478&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=mt4J6eHEuD0VU6Xxe6AR9Y74jmPMyBo6VAZyNGkGRypmmDESNVIEQVCZEGya8BBufHk3mGQLUN4omS3IwVWXQgXM2tH3NOHlL6WR4%2BF13ZQrmMnW%2FIknMDM9s1sNPq7LIUHRfUIzzrq8jSiWtGAUepr%2BSIg0Vy8%2F4WEFGD98QMtdh7B4Zr75D9VJO3t7xgtBqP1ADD8%2BOSY2vH7mwAsT4uk4MkJbXg2XLmt0NPNOVeHBFDyLxukAzSFDFPTfcIvUFU8GvYe%2FISVsulWBQqknYyiKRCYNC0U0HhV33%2BcoKTSyUmRuupi0SFAOkA4LWotBJRdys%2F5vvSe%2BMrpvn9ekgw%3D%3D (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 1652, in upload_file
+    raise e.with_traceback(sys.exc_info()[2])
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 1636, in upload_file
+    response = requests.put(url, data=progress, headers=extra_headers)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/api.py", line 132, in put
+    return request('put', url, data=data, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/requests/adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+wandb.sdk.lib.retry.TransientError: None
+2022-05-23 15:34:10,543 INFO    Thread-59 :21772 [upload_job.py:push():137] Uploaded file /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152612-2aylmt7g/files/requirements.txt
+2022-05-23 15:34:11,118 INFO    MainThread:21772 [internal.py:handle_exit():80] Internal process exited

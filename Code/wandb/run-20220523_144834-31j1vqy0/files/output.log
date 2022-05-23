@@ -1,0 +1,22 @@
+Will train until validation_0-rmse hasn't improved in 10 rounds.
+0	validation_0-rmse:1.11776
+/var/folders/9l/qzgwttq17ps8lhfhrtgpdkx00000gn/T/ipykernel_78287/1921192065.py:27: UserWarning:
+wandb_callback will be deprecated in favor of WandbCallback. Please use WandbCallback for more features.
+/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/xgboost/training.py:17: UserWarning:
+Old style callback is deprecated.  See: https://xgboost.readthedocs.io/en/latest/python/callbacks.html
+1	validation_0-rmse:1.11782
+2	validation_0-rmse:1.11819
+3	validation_0-rmse:1.11888
+4	validation_0-rmse:1.11986
+5	validation_0-rmse:1.12113
+6	validation_0-rmse:1.12264
+7	validation_0-rmse:1.12451
+8	validation_0-rmse:1.12647
+9	validation_0-rmse:1.12885
+Stopping. Best iteration:
+[0]	validation_0-rmse:1.11776
+====================4 model trained====================
+==================== fold_4 ====================
+rmse: 1.1177624899871548
+/Users/dylan/miniforge3/envs/machine_learning/lib/python3.8/site-packages/xgboost/core.py:105: UserWarning:
+ntree_limit is deprecated, use `iteration_range` or model slicing instead.

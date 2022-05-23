@@ -1,0 +1,5 @@
+2022-05-23 15:21:58,104 INFO    MainThread:19645 [internal.py:wandb_internal():90] W&B internal server running at pid: 19645, started at: 2022-05-23 15:21:58.091030
+2022-05-23 15:21:58,106 INFO    WriterThread:19645 [datastore.py:open_for_write():75] open: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_152031-8pmmgszw/run-8pmmgszw.wandb
+2022-05-23 15:21:58,107 DEBUG   SenderThread:19645 [sender.py:send():232] send: header
+2022-05-23 15:21:58,124 DEBUG   SenderThread:19645 [sender.py:send():232] send: run
+2022-05-23 15:22:09,623 WARNING MainThread:19645 [internal.py:wandb_internal():153] Internal process interrupt: 1

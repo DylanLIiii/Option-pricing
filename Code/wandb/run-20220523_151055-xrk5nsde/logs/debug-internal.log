@@ -1,0 +1,52 @@
+2022-05-23 15:10:56,060 INFO    MainThread:13641 [internal.py:wandb_internal():90] W&B internal server running at pid: 13641, started at: 2022-05-23 15:10:56.050241
+2022-05-23 15:10:56,061 INFO    WriterThread:13641 [datastore.py:open_for_write():75] open: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_151055-xrk5nsde/run-xrk5nsde.wandb
+2022-05-23 15:10:56,062 DEBUG   SenderThread:13641 [sender.py:send():232] send: header
+2022-05-23 15:10:56,079 DEBUG   SenderThread:13641 [sender.py:send():232] send: run
+2022-05-23 15:10:56,513 DEBUG   HandlerThread:13641 [handler.py:handle_request():141] handle_request: check_version
+2022-05-23 15:10:56,513 INFO    SenderThread:13641 [dir_watcher.py:__init__():166] watching files in: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_151055-xrk5nsde/files
+2022-05-23 15:10:56,513 INFO    SenderThread:13641 [sender.py:_start_run_threads():811] run started: xrk5nsde with start time 1653289855
+2022-05-23 15:10:56,513 DEBUG   SenderThread:13641 [sender.py:send():232] send: summary
+2022-05-23 15:10:56,514 INFO    SenderThread:13641 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-05-23 15:10:56,514 DEBUG   SenderThread:13641 [sender.py:send_request():246] send_request: check_version
+2022-05-23 15:10:57,519 INFO    Thread-7  :13641 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_151055-xrk5nsde/files/wandb-summary.json
+2022-05-23 15:11:00,662 DEBUG   HandlerThread:13641 [handler.py:handle_request():141] handle_request: run_start
+2022-05-23 15:11:02,287 DEBUG   HandlerThread:13641 [meta.py:__init__():35] meta init
+2022-05-23 15:11:02,293 DEBUG   HandlerThread:13641 [meta.py:__init__():49] meta init done
+2022-05-23 15:11:02,294 DEBUG   HandlerThread:13641 [meta.py:probe():209] probe
+2022-05-23 15:11:02,296 DEBUG   HandlerThread:13641 [meta.py:_setup_git():199] setup git
+2022-05-23 15:11:02,347 DEBUG   HandlerThread:13641 [meta.py:_setup_git():206] setup git done
+2022-05-23 15:11:02,357 DEBUG   HandlerThread:13641 [meta.py:_save_pip():53] save pip
+2022-05-23 15:11:02,358 DEBUG   HandlerThread:13641 [meta.py:_save_pip():67] save pip done
+2022-05-23 15:11:02,358 DEBUG   HandlerThread:13641 [meta.py:_save_conda():74] save conda
+2022-05-23 15:11:02,537 INFO    Thread-7  :13641 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_151055-xrk5nsde/files/conda-environment.yaml
+2022-05-23 15:11:02,561 INFO    Thread-7  :13641 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_151055-xrk5nsde/files/requirements.txt
+2022-05-23 15:11:02,930 WARNING MainThread:13641 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-05-23 15:11:02,982 DEBUG   HandlerThread:13641 [meta.py:_save_conda():84] save conda done
+2022-05-23 15:11:02,985 DEBUG   HandlerThread:13641 [meta.py:probe():247] probe done
+2022-05-23 15:11:02,989 DEBUG   SenderThread:13641 [sender.py:send():232] send: telemetry
+2022-05-23 15:11:03,006 DEBUG   SenderThread:13641 [sender.py:send():232] send: files
+2022-05-23 15:11:03,006 INFO    SenderThread:13641 [sender.py:_save_file():946] saving file wandb-metadata.json with policy now
+2022-05-23 15:11:03,541 INFO    Thread-7  :13641 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_151055-xrk5nsde/files/wandb-metadata.json
+2022-05-23 15:11:04,717 WARNING FileStreamThread:13641 [file_stream.py:request_with_retry():593] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/dylanli/Option-project/xrk5nsde/file_stream (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)'))). func: <bound method Session.post of <requests.sessions.Session object at 0x11e98f490>>, args: ('https://api.wandb.ai/files/dylanli/Option-project/xrk5nsde/file_stream',), kwargs: {'json': {'files': {'wandb-summary.json': {'offset': 0, 'content': ['{}']}}, 'dropped': 0}}
+2022-05-23 15:11:15,251 INFO    Thread-11 :13641 [upload_job.py:push():137] Uploaded file /var/folders/9l/qzgwttq17ps8lhfhrtgpdkx00000gn/T/tmpx6_ewbyawandb/2kmav65z-wandb-metadata.json
+2022-05-23 15:11:26,623 INFO    Thread-7  :13641 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_151055-xrk5nsde/files/config.yaml
+2022-05-23 15:11:42,122 DEBUG   SenderThread:13641 [sender.py:send():232] send: stats
+2022-05-23 15:12:24,673 DEBUG   SenderThread:13641 [sender.py:send():232] send: stats
+2022-05-23 15:12:46,023 WARNING MainThread:13641 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2022-05-23 15:12:46,041 ERROR   MainThread:13641 [internal.py:wandb_internal():156] Internal process interrupted.
+2022-05-23 15:12:46,697 INFO    HandlerThread:13641 [handler.py:finish():806] shutting down handler
+2022-05-23 15:12:46,761 INFO    WriterThread:13641 [datastore.py:close():279] close: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_151055-xrk5nsde/run-xrk5nsde.wandb
+2022-05-23 15:12:46,761 INFO    SenderThread:13641 [sender.py:finish():1106] shutting down sender
+2022-05-23 15:12:46,775 INFO    SenderThread:13641 [dir_watcher.py:finish():279] shutting down directory watcher
+2022-05-23 15:12:46,911 INFO    SenderThread:13641 [dir_watcher.py:finish():309] scan: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_151055-xrk5nsde/files
+2022-05-23 15:12:46,913 INFO    SenderThread:13641 [dir_watcher.py:finish():323] scan save: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_151055-xrk5nsde/files/requirements.txt requirements.txt
+2022-05-23 15:12:46,913 INFO    SenderThread:13641 [dir_watcher.py:finish():323] scan save: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_151055-xrk5nsde/files/config.yaml config.yaml
+2022-05-23 15:12:46,915 INFO    SenderThread:13641 [dir_watcher.py:finish():323] scan save: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_151055-xrk5nsde/files/wandb-summary.json wandb-summary.json
+2022-05-23 15:12:46,915 INFO    SenderThread:13641 [dir_watcher.py:finish():323] scan save: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_151055-xrk5nsde/files/conda-environment.yaml conda-environment.yaml
+2022-05-23 15:12:46,917 INFO    SenderThread:13641 [dir_watcher.py:finish():323] scan save: /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_151055-xrk5nsde/files/wandb-metadata.json wandb-metadata.json
+2022-05-23 15:12:46,917 INFO    SenderThread:13641 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-23 15:12:46,917 INFO    SenderThread:13641 [file_pusher.py:join():150] waiting for file pusher
+2022-05-23 15:12:48,704 INFO    Thread-14 :13641 [upload_job.py:push():137] Uploaded file /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_151055-xrk5nsde/files/wandb-summary.json
+2022-05-23 15:12:48,823 INFO    Thread-12 :13641 [upload_job.py:push():137] Uploaded file /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_151055-xrk5nsde/files/requirements.txt
+2022-05-23 15:12:54,512 INFO    Thread-13 :13641 [upload_job.py:push():137] Uploaded file /Users/dylan/iCollections/桌面文件/Repo/Option_Pricing/Code/wandb/run-20220523_151055-xrk5nsde/files/config.yaml
+2022-05-23 15:12:55,488 INFO    MainThread:13641 [internal.py:handle_exit():80] Internal process exited

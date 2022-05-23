@@ -1,0 +1,24 @@
+{
+    "os": "macOS-12.5-arm64-arm-64bit",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-05-23T06:45:31.633159",
+    "startedAt": "2022-05-23T06:45:02.028506",
+    "docker": null,
+    "cpu_count": 10,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/Users/dylan/Library/Jupyter/runtime/kernel-03f08968-1c0a-4e54-ba3f-1c4ef2f40598.json"
+    ],
+    "state": "running",
+    "program": "Code/ML_Model-jvsc-508fae27-fd39-4d3b-9ca4-3c905d29a211.ipynb",
+    "root": "/Users/dylan/iCollections/\u684c\u9762\u6587\u4ef6/Repo/Option_Pricing",
+    "git": {
+        "remote": "https://github.com/DylanLIiii/Option-pricing.git",
+        "commit": "044c4bf95f1c21ea3df4972efde13ecde2f8ae24"
+    },
+    "email": "dylan.h.li@outlook.com",
+    "host": "192.168.0.102",
+    "username": "dylan",
+    "executable": "/Users/dylan/miniforge3/envs/machine_learning/bin/python"
+}
